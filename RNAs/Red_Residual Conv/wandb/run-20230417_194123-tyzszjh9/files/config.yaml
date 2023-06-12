@@ -1,0 +1,74 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.14.0
+    framework: keras
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.9.5
+    start_time: 1681782083.55055
+    t:
+      1:
+      - 2
+      - 3
+      - 5
+      - 53
+      - 55
+      2:
+      - 2
+      - 3
+      - 5
+      - 53
+      - 55
+      3:
+      - 3
+      - 8
+      - 19
+      - 23
+      4: 3.9.5
+      5: 0.14.0
+      8:
+      - 3
+      - 5
+      10:
+      - 9
+batch_size:
+  desc: null
+  value: 20
+correct:
+  desc: null
+  value:
+  - 0.06520000000000084
+  - 0.033100000000000435
+  - 0.03410000000000046
+  - 0.06620000000000087
+epochs:
+  desc: null
+  value: 50
+initializer:
+  desc: null
+  value: 'NO'
+learning_rate:
+  desc: null
+  value: 5.0e-05
+loss:
+  desc: null
+  value: mse
+metric:
+  desc: null
+  value: mape
+optimizer:
+  desc: null
+  value: rmsprop
+predic:
+  desc: null
+  value:
+  - 0.06112578511238098
+  - 0.027604669332504272
+  - 0.030227869749069214
+  - 0.059471309185028076
+regularizer:
+  desc: null
+  value: Dropout

@@ -1,0 +1,196 @@
+Epoch 1/80
+38/40 [===========================>..] - ETA: 0s - loss: 0.1843 - mape: 2290.7053
+wandb: WARNING The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0027s vs `on_train_batch_end` time: 0.0048s). Check your callbacks.
+40/40 [==============================] - 2s 39ms/step - loss: 0.1831 - mape: 2266.8948 - val_loss: 0.1406 - val_mape: 1782.9340
+Epoch 2/80
+38/40 [===========================>..] - ETA: 0s - loss: 0.1018 - mape: 1446.0354
+wandb: Adding directory to artifact (C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Conv2D\wandb\run-20230408_204159-j7h4k1em\files\model-best)... Done. 0.0s
+40/40 [==============================] - 1s 31ms/step - loss: 0.1006 - mape: 1440.6644 - val_loss: 0.0555 - val_mape: 992.4431
+Epoch 3/80
+38/40 [===========================>..] - ETA: 0s - loss: 0.0302 - mape: 715.2897
+40/40 [==============================] - 1s 29ms/step - loss: 0.0297 - mape: 708.8315 - val_loss: 0.0097 - val_mape: 403.6082
+Epoch 4/80
+37/40 [==========================>...] - ETA: 0s - loss: 0.0044 - mape: 260.8930
+40/40 [==============================] - 1s 31ms/step - loss: 0.0042 - mape: 255.8355 - val_loss: 0.0011 - val_mape: 131.1510
+Epoch 5/80
+20/40 [==============>...............] - ETA: 0s - loss: 7.8013e-04 - mape: 107.8574
+40/40 [==============================] - 1s 33ms/step - loss: 6.4536e-04 - mape: 92.4869 - val_loss: 4.2859e-04 - val_mape: 66.7677
+Epoch 6/80
+34/40 [========================>.....] - ETA: 0s - loss: 3.7834e-04 - mape: 58.9017
+40/40 [==============================] - 1s 31ms/step - loss: 3.6837e-04 - mape: 58.2819 - val_loss: 3.6606e-04 - val_mape: 47.0709
+Epoch 7/80
+19/40 [=============>................] - ETA: 0s - loss: 2.8868e-04 - mape: 49.6058
+40/40 [==============================] - 1s 31ms/step - loss: 2.7450e-04 - mape: 46.9643 - val_loss: 2.8463e-04 - val_mape: 51.8157
+Epoch 8/80
+37/40 [==========================>...] - ETA: 0s - loss: 2.1055e-04 - mape: 42.3345
+40/40 [==============================] - 1s 33ms/step - loss: 2.1003e-04 - mape: 42.3693 - val_loss: 1.7229e-04 - val_mape: 39.1743
+Epoch 9/80
+39/40 [============================>.] - ETA: 0s - loss: 1.5810e-04 - mape: 37.0958
+40/40 [==============================] - 1s 30ms/step - loss: 1.5830e-04 - mape: 37.0635 - val_loss: 1.4356e-04 - val_mape: 37.9832
+Epoch 10/80
+37/40 [==========================>...] - ETA: 0s - loss: 1.2188e-04 - mape: 34.1365
+40/40 [==============================] - 1s 37ms/step - loss: 1.2018e-04 - mape: 34.2184 - val_loss: 1.0237e-04 - val_mape: 31.8732
+Epoch 11/80
+38/40 [===========================>..] - ETA: 0s - loss: 9.1791e-05 - mape: 31.8649
+40/40 [==============================] - 1s 29ms/step - loss: 9.1717e-05 - mape: 31.9741 - val_loss: 7.3327e-05 - val_mape: 30.3893
+Epoch 12/80
+40/40 [==============================] - 0s 10ms/step - loss: 6.9872e-05 - mape: 29.9004 - val_loss: 7.7550e-05 - val_mape: 28.1862
+Epoch 13/80
+35/40 [=========================>....] - ETA: 0s - loss: 5.4882e-05 - mape: 27.1072
+40/40 [==============================] - 2s 44ms/step - loss: 5.3825e-05 - mape: 27.4485 - val_loss: 4.7116e-05 - val_mape: 26.9177
+Epoch 14/80
+40/40 [==============================] - 0s 5ms/step - loss: 3.9468e-05 - mape: 25.5026 - val_loss: 6.9050e-05 - val_mape: 29.9908
+Epoch 15/80
+39/40 [============================>.] - ETA: 0s - loss: 3.2804e-05 - mape: 23.8612
+40/40 [==============================] - 1s 36ms/step - loss: 3.2720e-05 - mape: 23.9275 - val_loss: 2.6330e-05 - val_mape: 22.4276
+Epoch 16/80
+40/40 [==============================] - 0s 5ms/step - loss: 2.5372e-05 - mape: 22.2227 - val_loss: 2.6681e-05 - val_mape: 21.3632
+Epoch 17/80
+39/40 [============================>.] - ETA: 0s - loss: 1.9668e-05 - mape: 20.4871
+40/40 [==============================] - 1s 34ms/step - loss: 1.9631e-05 - mape: 20.4299 - val_loss: 2.5875e-05 - val_mape: 20.6238
+Epoch 18/80
+36/40 [==========================>...] - ETA: 0s - loss: 1.6180e-05 - mape: 18.6531
+40/40 [==============================] - 1s 30ms/step - loss: 1.5892e-05 - mape: 18.7471 - val_loss: 2.4500e-05 - val_mape: 21.7133
+Epoch 19/80
+38/40 [===========================>..] - ETA: 0s - loss: 1.2983e-05 - mape: 17.8965
+40/40 [==============================] - 1s 31ms/step - loss: 1.3051e-05 - mape: 17.8163 - val_loss: 1.7846e-05 - val_mape: 19.0533
+Epoch 20/80
+34/40 [========================>.....] - ETA: 0s - loss: 1.0656e-05 - mape: 16.8246
+40/40 [==============================] - 1s 31ms/step - loss: 1.0544e-05 - mape: 16.7781 - val_loss: 8.0948e-06 - val_mape: 16.5713
+Epoch 21/80
+37/40 [==========================>...] - ETA: 0s - loss: 9.1269e-06 - mape: 15.6161
+40/40 [==============================] - 1s 30ms/step - loss: 9.0804e-06 - mape: 15.8734 - val_loss: 7.4908e-06 - val_mape: 15.8879
+Epoch 22/80
+40/40 [==============================] - 1s 35ms/step - loss: 7.7989e-06 - mape: 14.7896 - val_loss: 5.7349e-06 - val_mape: 15.0865
+Epoch 23/80
+40/40 [==============================] - 0s 6ms/step - loss: 6.2483e-06 - mape: 13.9683 - val_loss: 6.0201e-06 - val_mape: 14.7598
+Epoch 24/80
+40/40 [==============================] - 0s 5ms/step - loss: 5.9080e-06 - mape: 13.1981 - val_loss: 5.9269e-06 - val_mape: 13.1903
+Epoch 25/80
+39/40 [============================>.] - ETA: 0s - loss: 4.9145e-06 - mape: 12.1528
+wandb: Adding directory to artifact (C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Conv2D\wandb\run-20230408_204159-j7h4k1em\files\model-best)... Done. 0.0s
+40/40 [==============================] - 1s 30ms/step - loss: 4.9322e-06 - mape: 12.1951 - val_loss: 5.4567e-06 - val_mape: 12.3946
+Epoch 26/80
+40/40 [==============================] - 1s 31ms/step - loss: 4.4075e-06 - mape: 11.3726 - val_loss: 2.9862e-06 - val_mape: 10.7553
+Epoch 27/80
+40/40 [==============================] - 0s 5ms/step - loss: 3.4124e-06 - mape: 10.2067 - val_loss: 5.6277e-06 - val_mape: 11.7904
+Epoch 28/80
+40/40 [==============================] - ETA: 0s - loss: 3.8146e-06 - mape: 9.8386
+wandb: Adding directory to artifact (C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Conv2D\wandb\run-20230408_204159-j7h4k1em\files\model-best)... Done. 0.0s
+40/40 [==============================] - 1s 29ms/step - loss: 3.8146e-06 - mape: 9.8386 - val_loss: 2.0139e-06 - val_mape: 9.7052
+Epoch 29/80
+39/40 [============================>.] - ETA: 0s - loss: 3.1427e-06 - mape: 8.9364
+40/40 [==============================] - 1s 29ms/step - loss: 3.1550e-06 - mape: 8.9851 - val_loss: 1.6026e-06 - val_mape: 8.8362
+Epoch 30/80
+40/40 [==============================] - 0s 5ms/step - loss: 3.3013e-06 - mape: 8.4177 - val_loss: 6.2328e-06 - val_mape: 11.0909
+Epoch 31/80
+40/40 [==============================] - 0s 5ms/step - loss: 2.8409e-06 - mape: 8.0096 - val_loss: 1.6477e-06 - val_mape: 8.9461
+Epoch 32/80
+19/40 [=============>................] - ETA: 0s - loss: 2.5017e-06 - mape: 7.7671
+40/40 [==============================] - 1s 34ms/step - loss: 2.6506e-06 - mape: 7.8357 - val_loss: 1.1457e-06 - val_mape: 7.6997
+Epoch 33/80
+40/40 [==============================] - 0s 5ms/step - loss: 2.8105e-06 - mape: 7.8565 - val_loss: 8.8960e-06 - val_mape: 10.6149
+Epoch 34/80
+40/40 [==============================] - 1s 31ms/step - loss: 2.6922e-06 - mape: 7.4689 - val_loss: 9.0415e-07 - val_mape: 7.3786
+Epoch 35/80
+40/40 [==============================] - 0s 5ms/step - loss: 2.0346e-06 - mape: 7.1245 - val_loss: 9.8905e-06 - val_mape: 11.3156
+Epoch 36/80
+40/40 [==============================] - 0s 5ms/step - loss: 2.5568e-06 - mape: 7.2439 - val_loss: 1.2096e-05 - val_mape: 11.8251
+Epoch 37/80
+40/40 [==============================] - 0s 5ms/step - loss: 2.5184e-06 - mape: 7.1572 - val_loss: 1.4211e-06 - val_mape: 7.8833
+Epoch 38/80
+40/40 [==============================] - 0s 5ms/step - loss: 2.5618e-06 - mape: 7.1825 - val_loss: 2.5676e-06 - val_mape: 8.4508
+Epoch 39/80
+39/40 [============================>.] - ETA: 0s - loss: 2.5445e-06 - mape: 6.9980
+40/40 [==============================] - 1s 31ms/step - loss: 2.5350e-06 - mape: 6.9777 - val_loss: 8.2517e-07 - val_mape: 6.8518
+Epoch 40/80
+40/40 [==============================] - 0s 5ms/step - loss: 2.1035e-06 - mape: 6.9406 - val_loss: 3.4987e-06 - val_mape: 9.3047
+Epoch 41/80
+40/40 [==============================] - 0s 5ms/step - loss: 2.4084e-06 - mape: 6.6672 - val_loss: 1.6495e-06 - val_mape: 7.7444
+Epoch 42/80
+40/40 [==============================] - 0s 5ms/step - loss: 2.2486e-06 - mape: 6.6652 - val_loss: 2.4594e-06 - val_mape: 8.3317
+Epoch 43/80
+39/40 [============================>.] - ETA: 0s - loss: 2.3912e-06 - mape: 6.8813
+wandb: Adding directory to artifact (C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Conv2D\wandb\run-20230408_204159-j7h4k1em\files\model-best)... Done. 0.0s
+40/40 [==============================] - 1s 31ms/step - loss: 2.3813e-06 - mape: 6.8719 - val_loss: 6.3343e-07 - val_mape: 6.4729
+Epoch 44/80
+40/40 [==============================] - 0s 5ms/step - loss: 2.4850e-06 - mape: 6.8701 - val_loss: 7.2826e-07 - val_mape: 6.5969
+Epoch 45/80
+40/40 [==============================] - 0s 5ms/step - loss: 2.2617e-06 - mape: 6.6315 - val_loss: 8.3138e-07 - val_mape: 6.7314
+Epoch 46/80
+40/40 [==============================] - 0s 5ms/step - loss: 1.8918e-06 - mape: 6.5005 - val_loss: 1.0627e-06 - val_mape: 6.4858
+Epoch 47/80
+40/40 [==============================] - 0s 5ms/step - loss: 2.2603e-06 - mape: 6.2123 - val_loss: 1.9443e-06 - val_mape: 7.2057
+Epoch 48/80
+40/40 [==============================] - 0s 5ms/step - loss: 2.5161e-06 - mape: 6.3432 - val_loss: 6.3482e-07 - val_mape: 6.1459
+Epoch 49/80
+40/40 [==============================] - 0s 5ms/step - loss: 1.5693e-06 - mape: 5.8062 - val_loss: 8.8511e-07 - val_mape: 6.4401
+Epoch 50/80
+40/40 [==============================] - 0s 6ms/step - loss: 2.2034e-06 - mape: 6.2805 - val_loss: 2.2111e-06 - val_mape: 7.8511
+Epoch 51/80
+40/40 [==============================] - 0s 5ms/step - loss: 2.2493e-06 - mape: 6.2438 - val_loss: 1.1151e-06 - val_mape: 7.0411
+Epoch 52/80
+40/40 [==============================] - 0s 5ms/step - loss: 2.2451e-06 - mape: 6.5360 - val_loss: 1.0454e-06 - val_mape: 6.6524
+Epoch 53/80
+40/40 [==============================] - 0s 5ms/step - loss: 2.0778e-06 - mape: 6.0510 - val_loss: 1.1872e-06 - val_mape: 6.7961
+Epoch 54/80
+40/40 [==============================] - 0s 5ms/step - loss: 2.1647e-06 - mape: 6.2800 - val_loss: 3.6473e-06 - val_mape: 8.3833
+Epoch 55/80
+40/40 [==============================] - 0s 5ms/step - loss: 2.4115e-06 - mape: 6.3185 - val_loss: 1.3079e-06 - val_mape: 6.7011
+Epoch 56/80
+40/40 [==============================] - 0s 5ms/step - loss: 2.0038e-06 - mape: 6.1264 - val_loss: 3.3260e-06 - val_mape: 7.4613
+Epoch 57/80
+40/40 [==============================] - 0s 5ms/step - loss: 1.9121e-06 - mape: 5.7198 - val_loss: 5.7024e-06 - val_mape: 9.33590
+Epoch 58/80
+40/40 [==============================] - 0s 6ms/step - loss: 1.6542e-06 - mape: 5.6504 - val_loss: 5.4539e-07 - val_mape: 6.0461
+Epoch 59/80
+40/40 [==============================] - 0s 5ms/step - loss: 1.9642e-06 - mape: 5.9375 - val_loss: 1.0557e-06 - val_mape: 6.4632
+Epoch 60/80
+40/40 [==============================] - 0s 6ms/step - loss: 2.2743e-06 - mape: 6.1093 - val_loss: 6.1139e-07 - val_mape: 5.7634
+Epoch 61/80
+40/40 [==============================] - 0s 5ms/step - loss: 1.9739e-06 - mape: 5.4948 - val_loss: 9.6961e-07 - val_mape: 6.3723
+Epoch 62/80
+40/40 [==============================] - 0s 5ms/step - loss: 2.2139e-06 - mape: 5.6017 - val_loss: 4.7186e-07 - val_mape: 5.7397
+Epoch 63/80
+40/40 [==============================] - 0s 6ms/step - loss: 1.8531e-06 - mape: 5.6556 - val_loss: 2.4457e-06 - val_mape: 7.3314
+Epoch 64/80
+40/40 [==============================] - 0s 5ms/step - loss: 1.9121e-06 - mape: 5.7198 - val_loss: 5.7024e-06 - val_mape: 9.33590
+Epoch 65/80
+40/40 [==============================] - 0s 6ms/step - loss: 2.4340e-06 - mape: 5.8595 - val_loss: 3.0837e-06 - val_mape: 7.6250
+Epoch 66/80
+40/40 [==============================] - 0s 5ms/step - loss: 2.0637e-06 - mape: 5.8140 - val_loss: 6.7446e-06 - val_mape: 9.0902
+Epoch 67/80
+40/40 [==============================] - 0s 6ms/step - loss: 1.5423e-06 - mape: 5.5083 - val_loss: 8.4007e-06 - val_mape: 9.8360
+Epoch 68/80
+40/40 [==============================] - 0s 6ms/step - loss: 1.9827e-06 - mape: 5.6552 - val_loss: 7.4007e-06 - val_mape: 9.2335
+Epoch 69/80
+40/40 [==============================] - 0s 5ms/step - loss: 2.0747e-06 - mape: 5.5518 - val_loss: 2.9553e-06 - val_mape: 6.8999
+Epoch 70/80
+40/40 [==============================] - 0s 5ms/step - loss: 1.7283e-06 - mape: 5.4668 - val_loss: 1.5589e-06 - val_mape: 7.0306
+Epoch 71/80
+40/40 [==============================] - 0s 5ms/step - loss: 1.9204e-06 - mape: 5.7515 - val_loss: 2.7401e-06 - val_mape: 7.8473
+Epoch 72/80
+40/40 [==============================] - 0s 6ms/step - loss: 1.9510e-06 - mape: 5.8826 - val_loss: 6.0499e-07 - val_mape: 5.6850
+Epoch 73/80
+40/40 [==============================] - 0s 5ms/step - loss: 1.8903e-06 - mape: 5.5055 - val_loss: 6.2053e-06 - val_mape: 9.0794
+Epoch 74/80
+40/40 [==============================] - 0s 5ms/step - loss: 1.8311e-06 - mape: 5.5324 - val_loss: 6.1457e-06 - val_mape: 10.1197
+Epoch 75/80
+40/40 [==============================] - 0s 6ms/step - loss: 2.1411e-06 - mape: 5.8484 - val_loss: 5.3445e-07 - val_mape: 5.6743
+Epoch 76/80
+40/40 [==============================] - 0s 5ms/step - loss: 1.6685e-06 - mape: 5.5177 - val_loss: 1.5562e-06 - val_mape: 6.6365
+Epoch 77/80
+40/40 [==============================] - 0s 5ms/step - loss: 1.8881e-06 - mape: 5.4701 - val_loss: 3.2681e-06 - val_mape: 8.0187
+Epoch 78/80
+40/40 [==============================] - 0s 6ms/step - loss: 2.0528e-06 - mape: 5.6742 - val_loss: 3.1725e-06 - val_mape: 7.8021
+Epoch 79/80
+40/40 [==============================] - 0s 6ms/step - loss: 1.7943e-06 - mape: 5.3671 - val_loss: 6.2221e-06 - val_mape: 8.7186
+Epoch 80/80
+40/40 [==============================] - 0s 5ms/step - loss: 2.1000e-06 - mape: 5.6351 - val_loss: 9.6815e-07 - val_mape: 6.2753
+7/7 [==============================] - 0s 2ms/step - loss: 9.6815e-07 - mape: 6.2753
+[9.681507435743697e-07, 6.275295257568359]
+Lo que obtuvo la red fue:
+[0.08161402 0.04160601 0.04236165 0.08276692]
+El resultado correcto:
+[0.0799  0.04045 0.04145 0.0809 ]

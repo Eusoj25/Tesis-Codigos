@@ -1,0 +1,26 @@
+2023-04-03 15:06:25,746 INFO    MainThread:16064 [wandb_setup.py:_flush():68] Configure stats pid to 16064
+2023-04-03 15:06:25,747 INFO    MainThread:16064 [wandb_setup.py:_flush():68] Loading settings from C:\Users\PAVILION 15-DW001LA\.config\wandb\settings
+2023-04-03 15:06:25,747 INFO    MainThread:16064 [wandb_setup.py:_flush():68] Loading settings from C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\settings
+2023-04-03 15:06:25,747 INFO    MainThread:16064 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-04-03 15:06:25,747 INFO    MainThread:16064 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'RNAs\\Red_Densa\\RNA_densa.py', 'program': 'C:\\Users\\PAVILION 15-DW001LA\\Documents\\Tesis\\Códigos\\RNAs\\Red_Densa\\RNA_densa.py'}
+2023-04-03 15:06:25,747 INFO    MainThread:16064 [wandb_init.py:_log_setup():476] Logging user logs to C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230403_150625-12w4zm2f\logs\debug.log
+2023-04-03 15:06:25,748 INFO    MainThread:16064 [wandb_init.py:_log_setup():477] Logging internal logs to C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230403_150625-12w4zm2f\logs\debug-internal.log
+2023-04-03 15:06:25,748 INFO    MainThread:16064 [wandb_init.py:init():516] calling init triggers
+2023-04-03 15:06:25,748 INFO    MainThread:16064 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2023-04-03 15:06:25,748 INFO    MainThread:16064 [wandb_init.py:init():569] starting backend
+2023-04-03 15:06:25,748 INFO    MainThread:16064 [wandb_init.py:init():573] setting up manager
+2023-04-03 15:06:25,757 INFO    MainThread:16064 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn, using: spawn
+2023-04-03 15:06:25,772 INFO    MainThread:16064 [wandb_init.py:init():580] backend started and connected
+2023-04-03 15:06:25,782 INFO    MainThread:16064 [wandb_init.py:init():658] updated telemetry
+2023-04-03 15:06:25,841 INFO    MainThread:16064 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2023-04-03 15:06:28,932 WARNING MsgRouterThr:16064 [router.py:message_loop():77] message_loop has been closed
+2023-04-03 15:06:30,913 ERROR   MainThread:16064 [wandb_init.py:init():1105] error
+Traceback (most recent call last):
+  File "C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\wandb\sdk\wandb_init.py", line 1078, in init
+    run = wi.init()
+  File "C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\wandb\sdk\wandb_init.py", line 697, in init
+    result = handle.wait(
+  File "C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\wandb\sdk\lib\mailbox.py", line 259, in wait
+    raise MailboxError("transport failed")
+wandb.errors.MailboxError: transport failed

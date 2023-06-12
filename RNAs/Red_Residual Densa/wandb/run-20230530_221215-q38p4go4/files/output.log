@@ -1,0 +1,182 @@
+wandb: WARNING The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\keras\engine\functional.py:1410: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  layer_config = serialize_layer_fn(layer)
+Epoch 1/50
+
+40/40 [==============================] - ETA: 0s - loss: 0.0104 - mape: 182.4264
+C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\keras\engine\functional.py:1410: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  layer_config = serialize_layer_fn(layer)
+C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\keras\saving\saved_model\layer_serialization.py:112: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  return generic_utils.serialize_keras_object(obj)
+wandb: Adding directory to artifact (C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Residual Densa\wandb\run-20230530_221215-q38p4go4\files\model-best)... Done. 0.1s
+C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\keras\engine\functional.py:1410: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  layer_config = serialize_layer_fn(layer)
+C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\keras\saving\saved_model\layer_serialization.py:112: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  return generic_utils.serialize_keras_object(obj)
+40/40 [==============================] - 7s 140ms/step - loss: 0.0104 - mape: 182.4264 - val_loss: 2.9764e-04 - val_mape: 38.8641
+Epoch 2/50
+40/40 [==============================] - 3s 64ms/step - loss: 3.8291e-04 - mape: 39.0226 - val_loss: 0.0014 - val_mape: 73.9637
+Epoch 3/50
+40/40 [==============================] - 2s 62ms/step - loss: 4.0107e-04 - mape: 41.4456 - val_loss: 8.5228e-04 - val_mape: 67.6193
+Epoch 4/50
+40/40 [==============================] - 2s 61ms/step - loss: 2.6665e-04 - mape: 33.8960 - val_loss: 3.2949e-04 - val_mape: 43.8366
+Epoch 5/50
+39/40 [============================>.] - ETA: 0s - loss: 2.3413e-04 - mape: 33.2573
+C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\keras\engine\functional.py:1410: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  layer_config = serialize_layer_fn(layer)
+C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\keras\saving\saved_model\layer_serialization.py:112: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  return generic_utils.serialize_keras_object(obj)
+40/40 [==============================] - 5s 135ms/step - loss: 2.3311e-04 - mape: 33.1276 - val_loss: 1.7820e-04 - val_mape: 26.6182
+Epoch 6/50
+40/40 [==============================] - 2s 59ms/step - loss: 1.9258e-04 - mape: 30.1242 - val_loss: 3.1907e-04 - val_mape: 37.8340
+Epoch 7/50
+40/40 [==============================] - 2s 61ms/step - loss: 1.4888e-04 - mape: 28.7589 - val_loss: 2.5076e-04 - val_mape: 40.9239
+Epoch 8/50
+40/40 [==============================] - 5s 122ms/step - loss: 1.1378e-04 - mape: 26.1666 - val_loss: 5.3976e-05 - val_mape: 17.4256
+Epoch 9/50
+40/40 [==============================] - 3s 64ms/step - loss: 1.1953e-04 - mape: 24.1716 - val_loss: 1.1816e-04 - val_mape: 28.4264
+Epoch 10/50
+39/40 [============================>.] - ETA: 0s - loss: 1.0979e-04 - mape: 23.9629
+C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\keras\engine\functional.py:1410: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  layer_config = serialize_layer_fn(layer)
+C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\keras\saving\saved_model\layer_serialization.py:112: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  return generic_utils.serialize_keras_object(obj)
+40/40 [==============================] - 5s 121ms/step - loss: 1.0927e-04 - mape: 23.8641 - val_loss: 3.7653e-05 - val_mape: 14.1407
+Epoch 11/50
+39/40 [============================>.] - ETA: 0s - loss: 8.6340e-05 - mape: 20.2505
+C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\keras\engine\functional.py:1410: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  layer_config = serialize_layer_fn(layer)
+C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\keras\saving\saved_model\layer_serialization.py:112: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  return generic_utils.serialize_keras_object(obj)
+wandb: Adding directory to artifact (C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Residual Densa\wandb\run-20230530_221215-q38p4go4\files\model-best)... Done. 0.1s
+C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\keras\engine\functional.py:1410: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  layer_config = serialize_layer_fn(layer)
+C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\keras\saving\saved_model\layer_serialization.py:112: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  return generic_utils.serialize_keras_object(obj)
+40/40 [==============================] - 5s 125ms/step - loss: 8.6181e-05 - mape: 20.2922 - val_loss: 2.5094e-05 - val_mape: 16.7898
+Epoch 12/50
+40/40 [==============================] - 2s 61ms/step - loss: 7.2123e-05 - mape: 19.3179 - val_loss: 5.5018e-05 - val_mape: 16.4764
+Epoch 13/50
+40/40 [==============================] - 2s 63ms/step - loss: 8.7712e-05 - mape: 21.6014 - val_loss: 1.2875e-04 - val_mape: 26.6633
+Epoch 14/50
+40/40 [==============================] - ETA: 0s - loss: 6.9053e-05 - mape: 18.9900
+C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\keras\engine\functional.py:1410: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  layer_config = serialize_layer_fn(layer)
+C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\keras\saving\saved_model\layer_serialization.py:112: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  return generic_utils.serialize_keras_object(obj)
+40/40 [==============================] - 5s 131ms/step - loss: 6.9053e-05 - mape: 18.9900 - val_loss: 1.7971e-05 - val_mape: 17.9327
+Epoch 15/50
+40/40 [==============================] - 5s 115ms/step - loss: 6.0496e-05 - mape: 16.2419 - val_loss: 1.3235e-05 - val_mape: 13.7579
+Epoch 16/50
+39/40 [============================>.] - ETA: 0s - loss: 6.3844e-05 - mape: 17.6567
+C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\keras\engine\functional.py:1410: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  layer_config = serialize_layer_fn(layer)
+C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\keras\saving\saved_model\layer_serialization.py:112: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  return generic_utils.serialize_keras_object(obj)
+40/40 [==============================] - 5s 123ms/step - loss: 6.3555e-05 - mape: 17.5930 - val_loss: 1.0541e-05 - val_mape: 9.7113
+Epoch 17/50
+40/40 [==============================] - 3s 70ms/step - loss: 6.4960e-05 - mape: 17.1292 - val_loss: 2.9127e-05 - val_mape: 15.6092
+Epoch 18/50
+40/40 [==============================] - ETA: 0s - loss: 5.4463e-05 - mape: 16.0879
+C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\keras\engine\functional.py:1410: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  layer_config = serialize_layer_fn(layer)
+C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\keras\saving\saved_model\layer_serialization.py:112: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  return generic_utils.serialize_keras_object(obj)
+40/40 [==============================] - 5s 116ms/step - loss: 5.4463e-05 - mape: 16.0879 - val_loss: 7.0228e-06 - val_mape: 9.0244
+Epoch 19/50
+40/40 [==============================] - 2s 59ms/step - loss: 5.3274e-05 - mape: 18.0553 - val_loss: 1.6529e-05 - val_mape: 10.8809
+Epoch 20/50
+40/40 [==============================] - 3s 70ms/step - loss: 5.1564e-05 - mape: 16.5355 - val_loss: 1.0267e-04 - val_mape: 24.7355
+Epoch 21/50
+39/40 [============================>.] - ETA: 0s - loss: 4.6786e-05 - mape: 16.9793
+C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\keras\engine\functional.py:1410: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  layer_config = serialize_layer_fn(layer)
+C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\keras\saving\saved_model\layer_serialization.py:112: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  return generic_utils.serialize_keras_object(obj)
+40/40 [==============================] - 5s 125ms/step - loss: 4.6593e-05 - mape: 16.9849 - val_loss: 4.1712e-06 - val_mape: 9.3565
+Epoch 22/50
+40/40 [==============================] - 2s 60ms/step - loss: 4.3646e-05 - mape: 13.8946 - val_loss: 2.1908e-05 - val_mape: 15.2232
+Epoch 23/50
+40/40 [==============================] - 2s 62ms/step - loss: 4.1418e-05 - mape: 14.7179 - val_loss: 2.2574e-05 - val_mape: 15.2982
+Epoch 24/50
+40/40 [==============================] - 3s 72ms/step - loss: 4.6568e-05 - mape: 15.8271 - val_loss: 2.0845e-05 - val_mape: 13.4164
+Epoch 25/50
+39/40 [============================>.] - ETA: 0s - loss: 4.2195e-05 - mape: 15.1920
+C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\keras\engine\functional.py:1410: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  layer_config = serialize_layer_fn(layer)
+C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\keras\saving\saved_model\layer_serialization.py:112: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  return generic_utils.serialize_keras_object(obj)
+40/40 [==============================] - 4s 113ms/step - loss: 4.2045e-05 - mape: 15.1851 - val_loss: 1.1215e-06 - val_mape: 5.3036
+Epoch 26/50
+40/40 [==============================] - 3s 66ms/step - loss: 3.1510e-05 - mape: 12.7571 - val_loss: 3.9010e-04 - val_mape: 41.2352
+Epoch 27/50
+40/40 [==============================] - 3s 65ms/step - loss: 4.0071e-05 - mape: 13.4621 - val_loss: 4.5122e-06 - val_mape: 9.9553
+Epoch 28/50
+40/40 [==============================] - 3s 69ms/step - loss: 2.9985e-05 - mape: 11.0503 - val_loss: 1.1796e-05 - val_mape: 11.9758
+Epoch 29/50
+40/40 [==============================] - 2s 61ms/step - loss: 3.9764e-05 - mape: 14.7260 - val_loss: 1.2074e-05 - val_mape: 10.5700
+Epoch 30/50
+40/40 [==============================] - 2s 61ms/step - loss: 3.4293e-05 - mape: 12.4125 - val_loss: 9.2567e-05 - val_mape: 20.5267
+Epoch 31/50
+40/40 [==============================] - 2s 63ms/step - loss: 2.9027e-05 - mape: 12.2264 - val_loss: 5.7897e-06 - val_mape: 7.2854
+Epoch 32/50
+40/40 [==============================] - 3s 74ms/step - loss: 3.2390e-05 - mape: 12.1028 - val_loss: 2.4086e-04 - val_mape: 34.2482
+Epoch 33/50
+40/40 [==============================] - 2s 62ms/step - loss: 2.9634e-05 - mape: 11.0932 - val_loss: 1.3318e-04 - val_mape: 25.8726
+Epoch 34/50
+40/40 [==============================] - 2s 61ms/step - loss: 3.0103e-05 - mape: 11.4865 - val_loss: 5.4332e-05 - val_mape: 17.4690
+Epoch 35/50
+39/40 [============================>.] - ETA: 0s - loss: 2.8343e-05 - mape: 11.0376
+C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\keras\engine\functional.py:1410: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  layer_config = serialize_layer_fn(layer)
+C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\keras\saving\saved_model\layer_serialization.py:112: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  return generic_utils.serialize_keras_object(obj)
+40/40 [==============================] - 5s 130ms/step - loss: 2.8199e-05 - mape: 10.9884 - val_loss: 8.9750e-07 - val_mape: 3.8086
+Epoch 36/50
+40/40 [==============================] - 2s 63ms/step - loss: 2.6468e-05 - mape: 10.8931 - val_loss: 1.5779e-04 - val_mape: 31.3940
+Epoch 37/50
+40/40 [==============================] - 2s 62ms/step - loss: 2.9003e-05 - mape: 10.0478 - val_loss: 1.2873e-04 - val_mape: 26.3919
+Epoch 38/50
+40/40 [==============================] - 2s 60ms/step - loss: 2.4444e-05 - mape: 9.4927 - val_loss: 1.7050e-06 - val_mape: 6.7868
+Epoch 39/50
+40/40 [==============================] - 3s 75ms/step - loss: 2.5318e-05 - mape: 10.4637 - val_loss: 1.8924e-05 - val_mape: 10.9789
+Epoch 40/50
+40/40 [==============================] - 3s 63ms/step - loss: 2.7577e-05 - mape: 11.0964 - val_loss: 7.7389e-06 - val_mape: 6.7340
+Epoch 41/50
+40/40 [==============================] - 2s 58ms/step - loss: 2.3838e-05 - mape: 10.2196 - val_loss: 5.8485e-05 - val_mape: 17.7662
+Epoch 42/50
+40/40 [==============================] - 2s 58ms/step - loss: 2.0020e-05 - mape: 9.8219 - val_loss: 5.0473e-05 - val_mape: 18.7057
+Epoch 43/50
+40/40 [==============================] - 2s 61ms/step - loss: 2.5094e-05 - mape: 11.9754 - val_loss: 6.7556e-06 - val_mape: 8.1938
+Epoch 44/50
+
+40/40 [==============================] - 3s 70ms/step - loss: 2.2351e-05 - mape: 11.0029 - val_loss: 1.3483e-04 - val_mape: 26.9937
+Epoch 45/50
+40/40 [==============================] - 2s 63ms/step - loss: 2.4030e-05 - mape: 11.4848 - val_loss: 3.4223e-05 - val_mape: 16.6186
+Epoch 46/50
+40/40 [==============================] - 2s 58ms/step - loss: 2.0811e-05 - mape: 9.1070 - val_loss: 1.0148e-06 - val_mape: 3.3839
+Epoch 47/50
+40/40 [==============================] - 2s 60ms/step - loss: 1.9886e-05 - mape: 8.4494 - val_loss: 5.6191e-05 - val_mape: 18.2274
+Epoch 48/50
+
+39/40 [============================>.] - ETA: 0s - loss: 2.2058e-05 - mape: 10.2762
+C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\keras\engine\functional.py:1410: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  layer_config = serialize_layer_fn(layer)
+C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\keras\saving\saved_model\layer_serialization.py:112: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  return generic_utils.serialize_keras_object(obj)
+wandb: Adding directory to artifact (C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Residual Densa\wandb\run-20230530_221215-q38p4go4\files\model-best)... Done. 0.1s
+C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\keras\engine\functional.py:1410: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  layer_config = serialize_layer_fn(layer)
+C:\Users\PAVILION 15-DW001LA\miniconda3\lib\site-packages\keras\saving\saved_model\layer_serialization.py:112: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  return generic_utils.serialize_keras_object(obj)
+40/40 [==============================] - 5s 131ms/step - loss: 2.1948e-05 - mape: 10.2352 - val_loss: 7.4332e-07 - val_mape: 3.7697
+Epoch 49/50
+40/40 [==============================] - 5s 120ms/step - loss: 1.9708e-05 - mape: 9.8887 - val_loss: 5.8754e-07 - val_mape: 3.7668
+Epoch 50/50
+40/40 [==============================] - 3s 73ms/step - loss: 1.9750e-05 - mape: 9.7373 - val_loss: 1.2249e-05 - val_mape: 11.2824
+7/7 [==============================] - 0s 10ms/step - loss: 1.2249e-05 - mape: 11.2824
+[1.2249165592947975e-05, 11.282419204711914]
+Lo que obtuvo la red fue:
+[0.03392452 0.01765227 0.0188196  0.03476137]
+El resultado correcto:
+[0.0315  0.01625 0.01725 0.0325 ]

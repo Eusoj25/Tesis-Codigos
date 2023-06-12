@@ -1,0 +1,94 @@
+Epoch 1/30
+34/40 [========================>.....] - ETA: 0s - loss: 0.0429 - mse: 0.0429
+wandb: WARNING The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0033s vs `on_train_batch_end` time: 0.0042s). Check your callbacks.
+40/40 [==============================] - 1s 30ms/step - loss: 0.0378 - mse: 0.0378 - val_loss: 0.0040 - val_mse: 0.0040
+Epoch 2/30
+35/40 [=========================>....] - ETA: 0s - loss: 0.0026 - mse: 0.0026
+wandb: Adding directory to artifact (C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230404_114533-uwpq90xe\files\model-best)... Done. 0.0s
+40/40 [==============================] - 1s 24ms/step - loss: 0.0024 - mse: 0.0024 - val_loss: 0.0015 - val_mse: 0.0015
+Epoch 3/30
+20/40 [==============>...............] - ETA: 0s - loss: 0.0013 - mse: 0.0013
+40/40 [==============================] - 1s 28ms/step - loss: 0.0012 - mse: 0.0012 - val_loss: 9.6661e-04 - val_mse: 9.6661e-04
+Epoch 4/30
+38/40 [===========================>..] - ETA: 0s - loss: 8.5250e-04 - mse: 8.5250e-04
+40/40 [==============================] - 1s 23ms/step - loss: 8.4975e-04 - mse: 8.4975e-04 - val_loss: 7.4297e-04 - val_mse: 7.4297e-04
+Epoch 5/30
+37/40 [==========================>...] - ETA: 0s - loss: 6.8400e-04 - mse: 6.8400e-04
+40/40 [==============================] - 1s 31ms/step - loss: 6.7393e-04 - mse: 6.7393e-04 - val_loss: 6.0857e-04 - val_mse: 6.0857e-04
+Epoch 6/30
+37/40 [==========================>...] - ETA: 0s - loss: 5.7506e-04 - mse: 5.7506e-04
+40/40 [==============================] - 1s 24ms/step - loss: 5.6145e-04 - mse: 5.6145e-04 - val_loss: 5.1540e-04 - val_mse: 5.1540e-04
+Epoch 7/30
+38/40 [===========================>..] - ETA: 0s - loss: 4.8175e-04 - mse: 4.8175e-04
+40/40 [==============================] - 1s 23ms/step - loss: 4.8105e-04 - mse: 4.8105e-04 - val_loss: 4.4344e-04 - val_mse: 4.4344e-04
+Epoch 8/30
+37/40 [==========================>...] - ETA: 0s - loss: 4.2147e-04 - mse: 4.2147e-04
+40/40 [==============================] - 1s 24ms/step - loss: 4.1838e-04 - mse: 4.1838e-04 - val_loss: 3.8697e-04 - val_mse: 3.8697e-04
+Epoch 9/30
+39/40 [============================>.] - ETA: 0s - loss: 3.6913e-04 - mse: 3.6913e-04
+40/40 [==============================] - 1s 26ms/step - loss: 3.6932e-04 - mse: 3.6932e-04 - val_loss: 3.4321e-04 - val_mse: 3.4321e-04
+Epoch 10/30
+37/40 [==========================>...] - ETA: 0s - loss: 3.2921e-04 - mse: 3.2921e-04
+40/40 [==============================] - 1s 25ms/step - loss: 3.2937e-04 - mse: 3.2937e-04 - val_loss: 3.0776e-04 - val_mse: 3.0776e-04
+Epoch 11/30
+20/40 [==============>...............] - ETA: 0s - loss: 3.0444e-04 - mse: 3.0444e-04
+40/40 [==============================] - 1s 23ms/step - loss: 2.9721e-04 - mse: 2.9721e-04 - val_loss: 2.7876e-04 - val_mse: 2.7876e-04
+Epoch 12/30
+39/40 [============================>.] - ETA: 0s - loss: 2.7122e-04 - mse: 2.7122e-04
+40/40 [==============================] - 1s 24ms/step - loss: 2.7051e-04 - mse: 2.7051e-04 - val_loss: 2.5259e-04 - val_mse: 2.5259e-04
+Epoch 13/30
+36/40 [==========================>...] - ETA: 0s - loss: 2.4862e-04 - mse: 2.4862e-04
+40/40 [==============================] - 1s 24ms/step - loss: 2.4744e-04 - mse: 2.4744e-04 - val_loss: 2.3119e-04 - val_mse: 2.3119e-04
+Epoch 14/30
+40/40 [==============================] - 1s 24ms/step - loss: 2.2774e-04 - mse: 2.2774e-04 - val_loss: 2.1229e-04 - val_mse: 2.1229e-04
+Epoch 15/30
+35/40 [=========================>....] - ETA: 0s - loss: 2.1284e-04 - mse: 2.1284e-04
+40/40 [==============================] - 1s 25ms/step - loss: 2.1023e-04 - mse: 2.1023e-04 - val_loss: 1.9650e-04 - val_mse: 1.9650e-04
+Epoch 16/30
+20/40 [==============>...............] - ETA: 0s - loss: 1.9335e-04 - mse: 1.9335e-04
+wandb: Adding directory to artifact (C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230404_114533-uwpq90xe\files\model-best)... Done. 0.0s
+40/40 [==============================] - 1s 23ms/step - loss: 1.9481e-04 - mse: 1.9481e-04 - val_loss: 1.8231e-04 - val_mse: 1.8231e-04
+Epoch 17/30
+40/40 [==============================] - 1s 27ms/step - loss: 1.8141e-04 - mse: 1.8141e-04 - val_loss: 1.6963e-04 - val_mse: 1.6963e-04
+Epoch 18/30
+36/40 [==========================>...] - ETA: 0s - loss: 1.7203e-04 - mse: 1.7203e-04
+wandb: Adding directory to artifact (C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230404_114533-uwpq90xe\files\model-best)... Done. 0.0s
+40/40 [==============================] - 1s 25ms/step - loss: 1.6952e-04 - mse: 1.6952e-04 - val_loss: 1.5846e-04 - val_mse: 1.5846e-04
+Epoch 19/30
+38/40 [===========================>..] - ETA: 0s - loss: 1.5853e-04 - mse: 1.5853e-04
+40/40 [==============================] - 1s 26ms/step - loss: 1.5911e-04 - mse: 1.5911e-04 - val_loss: 1.4873e-04 - val_mse: 1.4873e-04
+Epoch 20/30
+35/40 [=========================>....] - ETA: 0s - loss: 1.5002e-04 - mse: 1.5002e-04
+40/40 [==============================] - 1s 26ms/step - loss: 1.4950e-04 - mse: 1.4950e-04 - val_loss: 1.3985e-04 - val_mse: 1.3985e-04
+Epoch 21/30
+40/40 [==============================] - 1s 24ms/step - loss: 1.4112e-04 - mse: 1.4112e-04 - val_loss: 1.3170e-04 - val_mse: 1.3170e-04
+Epoch 22/30
+38/40 [===========================>..] - ETA: 0s - loss: 1.3307e-04 - mse: 1.3307e-04
+40/40 [==============================] - 1s 25ms/step - loss: 1.3347e-04 - mse: 1.3347e-04 - val_loss: 1.2487e-04 - val_mse: 1.2487e-04
+Epoch 23/30
+37/40 [==========================>...] - ETA: 0s - loss: 1.2704e-04 - mse: 1.2704e-04
+40/40 [==============================] - 1s 24ms/step - loss: 1.2652e-04 - mse: 1.2652e-04 - val_loss: 1.1869e-04 - val_mse: 1.1869e-04
+Epoch 24/30
+35/40 [=========================>....] - ETA: 0s - loss: 1.2088e-04 - mse: 1.2088e-04
+40/40 [==============================] - 1s 23ms/step - loss: 1.2024e-04 - mse: 1.2024e-04 - val_loss: 1.1310e-04 - val_mse: 1.1310e-04
+Epoch 25/30
+35/40 [=========================>....] - ETA: 0s - loss: 1.1393e-04 - mse: 1.1393e-04
+40/40 [==============================] - 1s 25ms/step - loss: 1.1462e-04 - mse: 1.1462e-04 - val_loss: 1.0759e-04 - val_mse: 1.0759e-04
+Epoch 26/30
+36/40 [==========================>...] - ETA: 0s - loss: 1.1039e-04 - mse: 1.1039e-04
+40/40 [==============================] - 1s 23ms/step - loss: 1.0913e-04 - mse: 1.0913e-04 - val_loss: 1.0267e-04 - val_mse: 1.0267e-04
+Epoch 27/30
+36/40 [==========================>...] - ETA: 0s - loss: 1.0630e-04 - mse: 1.0630e-04
+40/40 [==============================] - 1s 23ms/step - loss: 1.0429e-04 - mse: 1.0429e-04 - val_loss: 9.7750e-05 - val_mse: 9.7750e-05
+Epoch 28/30
+38/40 [===========================>..] - ETA: 0s - loss: 1.0005e-04 - mse: 1.0005e-04
+40/40 [==============================] - 1s 25ms/step - loss: 9.9760e-05 - mse: 9.9760e-05 - val_loss: 9.3610e-05 - val_mse: 9.3610e-05
+Epoch 29/30
+37/40 [==========================>...] - ETA: 0s - loss: 9.5768e-05 - mse: 9.5768e-05
+40/40 [==============================] - 1s 24ms/step - loss: 9.5557e-05 - mse: 9.5557e-05 - val_loss: 9.0056e-05 - val_mse: 9.0056e-05
+Epoch 30/30
+36/40 [==========================>...] - ETA: 0s - loss: 9.1496e-05 - mse: 9.1496e-05
+40/40 [==============================] - 1s 27ms/step - loss: 9.1752e-05 - mse: 9.1752e-05 - val_loss: 8.6440e-05 - val_mse: 8.6440e-05
+7/7 [==============================] - 0s 2ms/step - loss: 8.6440e-05 - mse: 8.6440e-05
+[8.643994806334376e-05, 8.643994806334376e-05]

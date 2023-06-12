@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\RNA_densa.py", line 74, in <module>
+    tbCallBack_2 = wandb.keras.callbacks.WandbCallback()
+AttributeError: module 'wandb.integration.keras.callbacks' has no attribute 'WandbCallback'

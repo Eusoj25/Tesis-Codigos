@@ -1,0 +1,158 @@
+Epoch 1/50
+35/40 [=========================>....] - ETA: 0s - loss: 0.0456 - mape: 783.9402
+wandb: WARNING The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0036s vs `on_train_batch_end` time: 0.0038s). Check your callbacks.
+40/40 [==============================] - 1s 30ms/step - loss: 0.0413 - mape: 736.7157 - val_loss: 0.0038 - val_mape: 246.8777
+Epoch 2/50
+37/40 [==========================>...] - ETA: 0s - loss: 0.0024 - mape: 188.6392
+wandb: Adding directory to artifact (C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230509_180901-nz9vzzn7\files\model-best)... Done. 0.0s
+40/40 [==============================] - 1s 25ms/step - loss: 0.0023 - mape: 185.3958 - val_loss: 0.0014 - val_mape: 137.1604
+Epoch 3/50
+33/40 [=======================>......] - ETA: 0s - loss: 0.0011 - mape: 124.5854
+40/40 [==============================] - 1s 31ms/step - loss: 0.0011 - mape: 120.5804 - val_loss: 8.7691e-04 - val_mape: 103.0844
+Epoch 4/50
+40/40 [==============================] - 1s 25ms/step - loss: 7.7027e-04 - mape: 95.2129 - val_loss: 6.7246e-04 - val_mape: 85.7114
+Epoch 5/50
+39/40 [============================>.] - ETA: 0s - loss: 6.1282e-04 - mape: 80.9818
+wandb: Adding directory to artifact (C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230509_180901-nz9vzzn7\files\model-best)... Done. 0.0s
+40/40 [==============================] - 1s 24ms/step - loss: 6.1074e-04 - mape: 80.7282 - val_loss: 5.5386e-04 - val_mape: 75.1600
+Epoch 6/50
+40/40 [==============================] - 1s 25ms/step - loss: 5.1152e-04 - mape: 71.4282 - val_loss: 4.7058e-04 - val_mape: 67.4978
+Epoch 7/50
+37/40 [==========================>...] - ETA: 0s - loss: 4.4349e-04 - mape: 64.7508
+40/40 [==============================] - 1s 27ms/step - loss: 4.3955e-04 - mape: 64.7812 - val_loss: 4.0803e-04 - val_mape: 61.6766
+Epoch 8/50
+36/40 [==========================>...] - ETA: 0s - loss: 3.9237e-04 - mape: 60.5254
+wandb: Adding directory to artifact (C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230509_180901-nz9vzzn7\files\model-best)... Done. 0.0s
+40/40 [==============================] - 1s 35ms/step - loss: 3.8477e-04 - mape: 59.1938 - val_loss: 3.5869e-04 - val_mape: 57.2921
+Epoch 9/50
+40/40 [==============================] - 1s 24ms/step - loss: 3.4206e-04 - mape: 55.3514 - val_loss: 3.1993e-04 - val_mape: 53.3997
+Epoch 10/50
+20/40 [==============>...............] - ETA: 0s - loss: 3.2141e-04 - mape: 52.0425
+wandb: Adding directory to artifact (C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230509_180901-nz9vzzn7\files\model-best)... Done. 0.0s
+40/40 [==============================] - 1s 24ms/step - loss: 3.0737e-04 - mape: 51.7940 - val_loss: 2.8796e-04 - val_mape: 50.0950
+Epoch 11/50
+37/40 [==========================>...] - ETA: 0s - loss: 2.7518e-04 - mape: 48.2425
+40/40 [==============================] - 1s 25ms/step - loss: 2.7833e-04 - mape: 48.6956 - val_loss: 2.6095e-04 - val_mape: 47.1609
+Epoch 12/50
+20/40 [==============>...............] - ETA: 0s - loss: 2.6287e-04 - mape: 46.5400
+40/40 [==============================] - 1s 25ms/step - loss: 2.5364e-04 - mape: 45.9699 - val_loss: 2.3836e-04 - val_mape: 44.6429
+Epoch 13/50
+39/40 [============================>.] - ETA: 0s - loss: 2.3251e-04 - mape: 43.4734
+40/40 [==============================] - 1s 28ms/step - loss: 2.3280e-04 - mape: 43.6234 - val_loss: 2.1857e-04 - val_mape: 42.4267
+Epoch 14/50
+40/40 [==============================] - 1s 27ms/step - loss: 2.1469e-04 - mape: 41.6277 - val_loss: 2.0226e-04 - val_mape: 40.4402
+Epoch 15/50
+40/40 [==============================] - ETA: 0s - loss: 1.9927e-04 - mape: 39.6994
+wandb: Adding directory to artifact (C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230509_180901-nz9vzzn7\files\model-best)... Done. 0.0s
+40/40 [==============================] - 1s 25ms/step - loss: 1.9927e-04 - mape: 39.6994 - val_loss: 1.8757e-04 - val_mape: 38.6715
+Epoch 16/50
+39/40 [============================>.] - ETA: 0s - loss: 1.8607e-04 - mape: 38.1275
+40/40 [==============================] - 1s 24ms/step - loss: 1.8542e-04 - mape: 38.0204 - val_loss: 1.7489e-04 - val_mape: 37.1452
+Epoch 17/50
+40/40 [==============================] - ETA: 0s - loss: 1.7341e-04 - mape: 36.5216
+40/40 [==============================] - 1s 24ms/step - loss: 1.7341e-04 - mape: 36.5216 - val_loss: 1.6366e-04 - val_mape: 35.6960
+Epoch 18/50
+32/40 [=======================>......] - ETA: 0s - loss: 1.6359e-04 - mape: 35.0996
+40/40 [==============================] - 1s 30ms/step - loss: 1.6260e-04 - mape: 35.0823 - val_loss: 1.5342e-04 - val_mape: 34.3515
+Epoch 19/50
+33/40 [=======================>......] - ETA: 0s - loss: 1.5386e-04 - mape: 33.7498
+40/40 [==============================] - 2s 44ms/step - loss: 1.5263e-04 - mape: 33.8881 - val_loss: 1.4392e-04 - val_mape: 33.1839
+Epoch 20/50
+37/40 [==========================>...] - ETA: 0s - loss: 1.4366e-04 - mape: 32.7101
+40/40 [==============================] - 1s 25ms/step - loss: 1.4366e-04 - mape: 32.6564 - val_loss: 1.3497e-04 - val_mape: 32.2804
+Epoch 21/50
+40/40 [==============================] - ETA: 0s - loss: 1.3565e-04 - mape: 31.8511
+40/40 [==============================] - 1s 24ms/step - loss: 1.3565e-04 - mape: 31.8511 - val_loss: 1.2784e-04 - val_mape: 31.2727
+Epoch 22/50
+33/40 [=======================>......] - ETA: 0s - loss: 1.2804e-04 - mape: 30.2386
+40/40 [==============================] - 1s 26ms/step - loss: 1.2854e-04 - mape: 30.8859 - val_loss: 1.2128e-04 - val_mape: 30.3396
+Epoch 23/50
+38/40 [===========================>..] - ETA: 0s - loss: 1.2282e-04 - mape: 29.9876
+40/40 [==============================] - 1s 24ms/step - loss: 1.2198e-04 - mape: 29.9473 - val_loss: 1.1488e-04 - val_mape: 29.6240
+Epoch 24/50
+32/40 [=======================>......] - ETA: 0s - loss: 1.1451e-04 - mape: 29.4156
+40/40 [==============================] - 1s 25ms/step - loss: 1.1599e-04 - mape: 29.2890 - val_loss: 1.0902e-04 - val_mape: 28.9453
+Epoch 25/50
+20/40 [==============>...............] - ETA: 0s - loss: 1.0920e-04 - mape: 29.7523
+40/40 [==============================] - 1s 29ms/step - loss: 1.1052e-04 - mape: 28.6305 - val_loss: 1.0390e-04 - val_mape: 28.2855
+Epoch 26/50
+37/40 [==========================>...] - ETA: 0s - loss: 1.0516e-04 - mape: 28.0281
+40/40 [==============================] - 1s 24ms/step - loss: 1.0548e-04 - mape: 28.0028 - val_loss: 9.9118e-05 - val_mape: 27.6866
+Epoch 27/50
+40/40 [==============================] - 1s 26ms/step - loss: 1.0083e-04 - mape: 27.4390 - val_loss: 9.4784e-05 - val_mape: 27.1461
+Epoch 28/50
+39/40 [============================>.] - ETA: 0s - loss: 9.6352e-05 - mape: 26.8700
+wandb: Adding directory to artifact (C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230509_180901-nz9vzzn7\files\model-best)... Done. 0.0s
+40/40 [==============================] - 1s 28ms/step - loss: 9.6573e-05 - mape: 26.8620 - val_loss: 9.0689e-05 - val_mape: 26.6619
+Epoch 29/50
+29/40 [====================>.........] - ETA: 0s - loss: 9.4820e-05 - mape: 27.1593
+40/40 [==============================] - 1s 29ms/step - loss: 9.2660e-05 - mape: 26.4841 - val_loss: 8.7186e-05 - val_mape: 26.0962
+Epoch 30/50
+31/40 [======================>.......] - ETA: 0s - loss: 8.9194e-05 - mape: 26.0256
+40/40 [==============================] - 1s 34ms/step - loss: 8.8861e-05 - mape: 25.9275 - val_loss: 8.3793e-05 - val_mape: 25.6618
+Epoch 31/50
+34/40 [========================>.....] - ETA: 0s - loss: 8.5021e-05 - mape: 25.5307
+40/40 [==============================] - 1s 31ms/step - loss: 8.5486e-05 - mape: 25.4920 - val_loss: 8.0689e-05 - val_mape: 25.2730
+Epoch 32/50
+35/40 [=========================>....] - ETA: 0s - loss: 8.1806e-05 - mape: 25.1538
+40/40 [==============================] - 1s 34ms/step - loss: 8.2383e-05 - mape: 25.1108 - val_loss: 7.7615e-05 - val_mape: 24.9343
+Epoch 33/50
+36/40 [==========================>...] - ETA: 0s - loss: 8.0172e-05 - mape: 24.5724
+40/40 [==============================] - 1s 30ms/step - loss: 7.9404e-05 - mape: 24.7955 - val_loss: 7.4957e-05 - val_mape: 24.5742
+Epoch 34/50
+35/40 [=========================>....] - ETA: 0s - loss: 7.7269e-05 - mape: 24.5741
+40/40 [==============================] - 1s 24ms/step - loss: 7.6667e-05 - mape: 24.4450 - val_loss: 7.2497e-05 - val_mape: 24.2233
+Epoch 35/50
+34/40 [========================>.....] - ETA: 0s - loss: 7.3264e-05 - mape: 24.0121
+40/40 [==============================] - 1s 26ms/step - loss: 7.4130e-05 - mape: 24.0934 - val_loss: 7.0156e-05 - val_mape: 23.9139
+Epoch 36/50
+33/40 [=======================>......] - ETA: 0s - loss: 7.0929e-05 - mape: 23.7367
+40/40 [==============================] - 1s 25ms/step - loss: 7.1705e-05 - mape: 23.8009 - val_loss: 6.7719e-05 - val_mape: 23.6756
+Epoch 37/50
+38/40 [===========================>..] - ETA: 0s - loss: 6.9836e-05 - mape: 23.5376
+40/40 [==============================] - 1s 23ms/step - loss: 6.9371e-05 - mape: 23.6179 - val_loss: 6.5690e-05 - val_mape: 23.3884
+Epoch 38/50
+40/40 [==============================] - 1s 28ms/step - loss: 6.7289e-05 - mape: 23.2670 - val_loss: 6.3627e-05 - val_mape: 23.1531
+Epoch 39/50
+29/40 [====================>.........] - ETA: 0s - loss: 6.7045e-05 - mape: 23.0048
+wandb: Adding directory to artifact (C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230509_180901-nz9vzzn7\files\model-best)... Done. 0.0s
+40/40 [==============================] - 1s 28ms/step - loss: 6.5248e-05 - mape: 23.0333 - val_loss: 6.1698e-05 - val_mape: 22.9426
+Epoch 40/50
+40/40 [==============================] - ETA: 0s - loss: 6.3333e-05 - mape: 22.8470
+40/40 [==============================] - 1s 36ms/step - loss: 6.3333e-05 - mape: 22.8470 - val_loss: 6.0017e-05 - val_mape: 22.6962
+Epoch 41/50
+36/40 [==========================>...] - ETA: 0s - loss: 6.1647e-05 - mape: 22.5058
+40/40 [==============================] - 1s 31ms/step - loss: 6.1525e-05 - mape: 22.5520 - val_loss: 5.8259e-05 - val_mape: 22.5169
+Epoch 42/50
+32/40 [=======================>......] - ETA: 0s - loss: 5.9704e-05 - mape: 22.4052
+40/40 [==============================] - 1s 26ms/step - loss: 5.9894e-05 - mape: 22.3890 - val_loss: 5.6741e-05 - val_mape: 22.3012
+Epoch 43/50
+36/40 [==========================>...] - ETA: 0s - loss: 5.7392e-05 - mape: 22.0686
+40/40 [==============================] - 1s 25ms/step - loss: 5.8257e-05 - mape: 22.1377 - val_loss: 5.5132e-05 - val_mape: 22.1608
+Epoch 44/50
+21/40 [==============>...............] - ETA: 0s - loss: 5.4651e-05 - mape: 21.8982
+40/40 [==============================] - 1s 25ms/step - loss: 5.6763e-05 - mape: 22.0024 - val_loss: 5.3797e-05 - val_mape: 21.9601
+Epoch 45/50
+40/40 [==============================] - ETA: 0s - loss: 5.5340e-05 - mape: 21.8267
+40/40 [==============================] - 2s 42ms/step - loss: 5.5340e-05 - mape: 21.8267 - val_loss: 5.2501e-05 - val_mape: 21.7821
+Epoch 46/50
+40/40 [==============================] - 1s 29ms/step - loss: 5.3961e-05 - mape: 21.5941 - val_loss: 5.1148e-05 - val_mape: 21.6534
+Epoch 47/50
+34/40 [========================>.....] - ETA: 0s - loss: 5.3350e-05 - mape: 21.6110
+wandb: Adding directory to artifact (C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230509_180901-nz9vzzn7\files\model-best)... Done. 0.0s
+40/40 [==============================] - 1s 34ms/step - loss: 5.2689e-05 - mape: 21.4671 - val_loss: 4.9946e-05 - val_mape: 21.5055
+Epoch 48/50
+32/40 [=======================>......] - ETA: 0s - loss: 5.0841e-05 - mape: 21.6948
+40/40 [==============================] - 2s 41ms/step - loss: 5.1417e-05 - mape: 21.3218 - val_loss: 4.8766e-05 - val_mape: 21.3752
+Epoch 49/50
+37/40 [==========================>...] - ETA: 0s - loss: 5.0254e-05 - mape: 21.2796
+40/40 [==============================] - 1s 36ms/step - loss: 5.0248e-05 - mape: 21.1905 - val_loss: 4.7603e-05 - val_mape: 21.2696
+Epoch 50/50
+40/40 [==============================] - 1s 25ms/step - loss: 4.9124e-05 - mape: 21.0461 - val_loss: 4.6659e-05 - val_mape: 21.0952
+7/7 [==============================] - 0s 2ms/step - loss: 4.6659e-05 - mape: 21.0952
+[4.665898086386733e-05, 21.095176696777344]
+Lo que obtuvo la red fue:
+[0.07148764 0.03446546 0.03594998 0.07281923]
+El resultado correcto:
+[0.0689  0.03495 0.03595 0.0699 ]

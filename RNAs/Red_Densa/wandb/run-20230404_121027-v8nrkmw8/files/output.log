@@ -1,0 +1,94 @@
+wandb: WARNING The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0026s vs `on_train_batch_end` time: 0.0040s). Check your callbacks.
+wandb: Adding directory to artifact (C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230404_121027-v8nrkmw8\files\model-best)... Done. 0.0s
+Epoch 1/30
+40/40 [==============================] - 1s 29ms/step - loss: 0.0073 - mse: 0.0073 - val_loss: 3.3728e-04 - val_mse: 3.3728e-04
+Epoch 2/30
+37/40 [==========================>...] - ETA: 0s - loss: 2.4536e-04 - mse: 2.4536e-04
+wandb: Adding directory to artifact (C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230404_121027-v8nrkmw8\files\model-best)... Done. 0.0s
+40/40 [==============================] - 1s 24ms/step - loss: 2.4268e-04 - mse: 2.4268e-04 - val_loss: 1.7018e-04 - val_mse: 1.7018e-04
+Epoch 3/30
+40/40 [==============================] - 1s 26ms/step - loss: 1.4228e-04 - mse: 1.4228e-04 - val_loss: 1.1282e-04 - val_mse: 1.1282e-04
+Epoch 4/30
+39/40 [============================>.] - ETA: 0s - loss: 9.9112e-05 - mse: 9.9112e-05
+wandb: Adding directory to artifact (C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230404_121027-v8nrkmw8\files\model-best)... Done. 0.0s
+40/40 [==============================] - 1s 23ms/step - loss: 9.8816e-05 - mse: 9.8816e-05 - val_loss: 7.9874e-05 - val_mse: 7.9874e-05
+Epoch 5/30
+37/40 [==========================>...] - ETA: 0s - loss: 7.5300e-05 - mse: 7.5300e-05
+40/40 [==============================] - 1s 24ms/step - loss: 7.4759e-05 - mse: 7.4759e-05 - val_loss: 6.3138e-05 - val_mse: 6.3138e-05
+Epoch 6/30
+36/40 [==========================>...] - ETA: 0s - loss: 6.1773e-05 - mse: 6.1773e-05
+40/40 [==============================] - 1s 25ms/step - loss: 6.0849e-05 - mse: 6.0849e-05 - val_loss: 5.2967e-05 - val_mse: 5.2967e-05
+Epoch 7/30
+40/40 [==============================] - ETA: 0s - loss: 5.1200e-05 - mse: 5.1200e-05
+40/40 [==============================] - 1s 26ms/step - loss: 5.1200e-05 - mse: 5.1200e-05 - val_loss: 4.5271e-05 - val_mse: 4.5271e-05
+Epoch 8/30
+38/40 [===========================>..] - ETA: 0s - loss: 4.4091e-05 - mse: 4.4091e-05
+40/40 [==============================] - 1s 27ms/step - loss: 4.4571e-05 - mse: 4.4571e-05 - val_loss: 4.1846e-05 - val_mse: 4.1846e-05
+Epoch 9/30
+34/40 [========================>.....] - ETA: 0s - loss: 3.9710e-05 - mse: 3.9710e-05
+40/40 [==============================] - 1s 24ms/step - loss: 3.9657e-05 - mse: 3.9657e-05 - val_loss: 3.5905e-05 - val_mse: 3.5905e-05
+Epoch 10/30
+40/40 [==============================] - 1s 24ms/step - loss: 3.5891e-05 - mse: 3.5891e-05 - val_loss: 3.2622e-05 - val_mse: 3.2622e-05
+Epoch 11/30
+38/40 [===========================>..] - ETA: 0s - loss: 3.2411e-05 - mse: 3.2411e-05
+wandb: Adding directory to artifact (C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230404_121027-v8nrkmw8\files\model-best)... Done. 0.0s
+40/40 [==============================] - 1s 25ms/step - loss: 3.2312e-05 - mse: 3.2312e-05 - val_loss: 3.0884e-05 - val_mse: 3.0884e-05
+Epoch 12/30
+40/40 [==============================] - 1s 23ms/step - loss: 2.9959e-05 - mse: 2.9959e-05 - val_loss: 2.8889e-05 - val_mse: 2.8889e-05
+Epoch 13/30
+37/40 [==========================>...] - ETA: 0s - loss: 2.7944e-05 - mse: 2.7944e-05
+wandb: Adding directory to artifact (C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230404_121027-v8nrkmw8\files\model-best)... Done. 0.0s
+40/40 [==============================] - 1s 25ms/step - loss: 2.7696e-05 - mse: 2.7696e-05 - val_loss: 2.6338e-05 - val_mse: 2.6338e-05
+Epoch 14/30
+21/40 [==============>...............] - ETA: 0s - loss: 2.6450e-05 - mse: 2.6450e-05
+40/40 [==============================] - 1s 23ms/step - loss: 2.5689e-05 - mse: 2.5689e-05 - val_loss: 2.4172e-05 - val_mse: 2.4172e-05
+Epoch 15/30
+38/40 [===========================>..] - ETA: 0s - loss: 2.3844e-05 - mse: 2.3844e-05
+40/40 [==============================] - 1s 24ms/step - loss: 2.3955e-05 - mse: 2.3955e-05 - val_loss: 2.2966e-05 - val_mse: 2.2966e-05
+Epoch 16/30
+36/40 [==========================>...] - ETA: 0s - loss: 2.2556e-05 - mse: 2.2556e-05
+40/40 [==============================] - 1s 24ms/step - loss: 2.2563e-05 - mse: 2.2563e-05 - val_loss: 2.1655e-05 - val_mse: 2.1655e-05
+Epoch 17/30
+20/40 [==============>...............] - ETA: 0s - loss: 2.1308e-05 - mse: 2.1308e-05
+40/40 [==============================] - 1s 24ms/step - loss: 2.1083e-05 - mse: 2.1083e-05 - val_loss: 2.0038e-05 - val_mse: 2.0038e-05
+Epoch 18/30
+40/40 [==============================] - 1s 25ms/step - loss: 1.9758e-05 - mse: 1.9758e-05 - val_loss: 1.8740e-05 - val_mse: 1.8740e-05
+Epoch 19/30
+38/40 [===========================>..] - ETA: 0s - loss: 1.8359e-05 - mse: 1.8359e-05
+wandb: Adding directory to artifact (C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230404_121027-v8nrkmw8\files\model-best)... Done. 0.0s
+40/40 [==============================] - 1s 29ms/step - loss: 1.8486e-05 - mse: 1.8486e-05 - val_loss: 1.7603e-05 - val_mse: 1.7603e-05
+Epoch 20/30
+37/40 [==========================>...] - ETA: 0s - loss: 1.7269e-05 - mse: 1.7269e-05
+40/40 [==============================] - 1s 28ms/step - loss: 1.7342e-05 - mse: 1.7342e-05 - val_loss: 1.6512e-05 - val_mse: 1.6512e-05
+Epoch 21/30
+40/40 [==============================] - 1s 24ms/step - loss: 1.6333e-05 - mse: 1.6333e-05 - val_loss: 1.6228e-05 - val_mse: 1.6228e-05
+Epoch 22/30
+38/40 [===========================>..] - ETA: 0s - loss: 1.5153e-05 - mse: 1.5153e-05
+40/40 [==============================] - 1s 25ms/step - loss: 1.5279e-05 - mse: 1.5279e-05 - val_loss: 1.4692e-05 - val_mse: 1.4692e-05
+Epoch 23/30
+33/40 [=======================>......] - ETA: 0s - loss: 1.4643e-05 - mse: 1.4643e-05
+40/40 [==============================] - 1s 25ms/step - loss: 1.4391e-05 - mse: 1.4391e-05 - val_loss: 1.3821e-05 - val_mse: 1.3821e-05
+Epoch 24/30
+37/40 [==========================>...] - ETA: 0s - loss: 1.3631e-05 - mse: 1.3631e-05
+wandb: Adding directory to artifact (C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230404_121027-v8nrkmw8\files\model-best)... Done. 0.0s
+40/40 [==============================] - 1s 24ms/step - loss: 1.3511e-05 - mse: 1.3511e-05 - val_loss: 1.3292e-05 - val_mse: 1.3292e-05
+Epoch 25/30
+36/40 [==========================>...] - ETA: 0s - loss: 1.2735e-05 - mse: 1.2735e-05
+40/40 [==============================] - 1s 25ms/step - loss: 1.2712e-05 - mse: 1.2712e-05 - val_loss: 1.2597e-05 - val_mse: 1.2597e-05
+Epoch 26/30
+40/40 [==============================] - 1s 24ms/step - loss: 1.1988e-05 - mse: 1.1988e-05 - val_loss: 1.1458e-05 - val_mse: 1.1458e-05
+Epoch 27/30
+40/40 [==============================] - ETA: 0s - loss: 1.1225e-05 - mse: 1.1225e-05
+40/40 [==============================] - 1s 26ms/step - loss: 1.1225e-05 - mse: 1.1225e-05 - val_loss: 1.1180e-05 - val_mse: 1.1180e-05
+Epoch 28/30
+36/40 [==========================>...] - ETA: 0s - loss: 1.0721e-05 - mse: 1.0721e-05
+wandb: Adding directory to artifact (C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230404_121027-v8nrkmw8\files\model-best)... Done. 0.0s
+40/40 [==============================] - 1s 24ms/step - loss: 1.0555e-05 - mse: 1.0555e-05 - val_loss: 1.0096e-05 - val_mse: 1.0096e-05
+Epoch 29/30
+40/40 [==============================] - 1s 24ms/step - loss: 9.8855e-06 - mse: 9.8855e-06 - val_loss: 9.6028e-06 - val_mse: 9.6028e-06
+Epoch 30/30
+37/40 [==========================>...] - ETA: 0s - loss: 9.4604e-06 - mse: 9.4604e-06
+40/40 [==============================] - 1s 26ms/step - loss: 9.3485e-06 - mse: 9.3485e-06 - val_loss: 9.4017e-06 - val_mse: 9.4017e-06
+7/7 [==============================] - 0s 2ms/step - loss: 9.4017e-06 - mse: 9.4017e-06
+[9.401686838828027e-06, 9.401686838828027e-06]

@@ -1,0 +1,42 @@
+2023-04-04 19:17:34,126 INFO    MainThread:40436 [wandb_setup.py:_flush():76] Configure stats pid to 40436
+2023-04-04 19:17:34,127 INFO    MainThread:40436 [wandb_setup.py:_flush():76] Loading settings from C:\Users\PAVILION 15-DW001LA\.config\wandb\settings
+2023-04-04 19:17:34,127 INFO    MainThread:40436 [wandb_setup.py:_flush():76] Loading settings from C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\settings
+2023-04-04 19:17:34,127 INFO    MainThread:40436 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-04-04 19:17:34,127 INFO    MainThread:40436 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-04-04 19:17:34,127 INFO    MainThread:40436 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'RNAs\\Red_Densa\\RNA_densa.py', 'program': 'C:\\Users\\PAVILION 15-DW001LA\\Documents\\Tesis\\Códigos\\RNAs\\Red_Densa\\RNA_densa.py'}
+2023-04-04 19:17:34,129 INFO    MainThread:40436 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230404_191734-sh9ulgcf\logs\debug.log
+2023-04-04 19:17:34,129 INFO    MainThread:40436 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230404_191734-sh9ulgcf\logs\debug-internal.log
+2023-04-04 19:17:34,129 INFO    MainThread:40436 [wandb_init.py:init():546] calling init triggers
+2023-04-04 19:17:34,129 INFO    MainThread:40436 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {}
+2023-04-04 19:17:34,129 INFO    MainThread:40436 [wandb_init.py:init():602] starting backend
+2023-04-04 19:17:34,130 INFO    MainThread:40436 [wandb_init.py:init():606] setting up manager
+2023-04-04 19:17:34,138 INFO    MainThread:40436 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-04-04 19:17:34,147 INFO    MainThread:40436 [wandb_init.py:init():613] backend started and connected
+2023-04-04 19:17:34,151 INFO    MainThread:40436 [wandb_init.py:init():701] updated telemetry
+2023-04-04 19:17:34,244 INFO    MainThread:40436 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-04-04 19:17:34,640 INFO    MainThread:40436 [wandb_run.py:_on_init():2133] communicating current version
+2023-04-04 19:17:34,870 INFO    MainThread:40436 [wandb_run.py:_on_init():2142] got version response 
+2023-04-04 19:17:34,870 INFO    MainThread:40436 [wandb_init.py:init():789] starting run threads in backend
+2023-04-04 19:17:39,976 INFO    MainThread:40436 [wandb_run.py:_console_start():2114] atexit reg
+2023-04-04 19:17:39,976 INFO    MainThread:40436 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-04-04 19:17:39,976 INFO    MainThread:40436 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-04-04 19:17:39,977 INFO    MainThread:40436 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-04-04 19:17:39,977 INFO    MainThread:40436 [wandb_init.py:init():831] run started, returning control to user process
+2023-04-04 19:17:39,978 INFO    MainThread:40436 [wandb_config.py:__setitem__():152] config set learning_rate = 0.00025 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000027227D087C0>>
+2023-04-04 19:17:39,978 INFO    MainThread:40436 [wandb_run.py:_config_callback():1251] config_cb learning_rate 0.00025 None
+2023-04-04 19:17:39,979 INFO    MainThread:40436 [wandb_config.py:__setitem__():152] config set batch_size = 20 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000027227D087C0>>
+2023-04-04 19:17:39,979 INFO    MainThread:40436 [wandb_run.py:_config_callback():1251] config_cb batch_size 20 None
+2023-04-04 19:17:39,979 INFO    MainThread:40436 [wandb_config.py:__setitem__():152] config set epochs = 30 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000027227D087C0>>
+2023-04-04 19:17:39,979 INFO    MainThread:40436 [wandb_run.py:_config_callback():1251] config_cb epochs 30 None
+2023-04-04 19:17:39,980 INFO    MainThread:40436 [wandb_config.py:__setitem__():152] config set metric = mape - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000027227D087C0>>
+2023-04-04 19:17:39,980 INFO    MainThread:40436 [wandb_run.py:_config_callback():1251] config_cb metric mape None
+2023-04-04 19:17:39,980 INFO    MainThread:40436 [wandb_config.py:__setitem__():152] config set loss = mse - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000027227D087C0>>
+2023-04-04 19:17:39,980 INFO    MainThread:40436 [wandb_run.py:_config_callback():1251] config_cb loss mse None
+2023-04-04 19:17:39,981 INFO    MainThread:40436 [wandb_config.py:__setitem__():152] config set optimizer = rmsprop - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000027227D087C0>>
+2023-04-04 19:17:39,981 INFO    MainThread:40436 [wandb_run.py:_config_callback():1251] config_cb optimizer rmsprop None
+2023-04-04 19:17:59,492 INFO    MainThread:40436 [wandb_config.py:__setitem__():152] config set predic = [0.06154972314834595, 0.030493199825286865, 0.03110373020172119, 0.060047000646591187] - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000027227D087C0>>
+2023-04-04 19:17:59,492 INFO    MainThread:40436 [wandb_run.py:_config_callback():1251] config_cb predic [0.06154972314834595, 0.030493199825286865, 0.03110373020172119, 0.060047000646591187] None
+2023-04-04 19:17:59,493 INFO    MainThread:40436 [wandb_config.py:__setitem__():152] config set correct = [0.06890000000000095, 0.03495000000000049, 0.035950000000000516, 0.06990000000000098] - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000027227D087C0>>
+2023-04-04 19:17:59,493 INFO    MainThread:40436 [wandb_run.py:_config_callback():1251] config_cb correct [0.06890000000000095, 0.03495000000000049, 0.035950000000000516, 0.06990000000000098] None
+2023-04-04 19:18:09,253 WARNING MsgRouterThr:40436 [router.py:message_loop():77] message_loop has been closed

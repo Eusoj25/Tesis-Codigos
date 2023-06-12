@@ -1,0 +1,42 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.9.5",
+    "heartbeatAt": "2023-05-10T00:01:59.078795",
+    "startedAt": "2023-05-10T00:01:57.954141",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\PAVILION 15-DW001LA\\Documents\\Tesis\\C\u00f3digos\\RNAs\\Red_Densa\\RNA_densa.py",
+    "codePath": "RNAs\\Red_Densa\\RNA_densa.py",
+    "git": {
+        "remote": "https://github.com/Eusoj25/Tesis.git",
+        "commit": "dee2532ae4a69656bfb694530a02c220b8fbf363"
+    },
+    "email": "108889462+JosueRH25@users.noreply.github.com",
+    "root": "C:/Users/PAVILION 15-DW001LA/Documents/Tesis/C\u00f3digos",
+    "host": "LAPTOP-8SNF18AB",
+    "username": "PAVILION 15-DW001LA",
+    "executable": "C:\\Users\\PAVILION 15-DW001LA\\miniconda3\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1500.0,
+        "min": 0.0,
+        "max": 1800.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1500.0,
+            "min": 0.0,
+            "max": 1800.0
+        }
+    ],
+    "disk": {
+        "total": 237.24120712280273,
+        "used": 140.1803855895996
+    },
+    "memory": {
+        "total": 7.888965606689453
+    }
+}

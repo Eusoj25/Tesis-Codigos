@@ -1,0 +1,909 @@
+2023-04-11 11:37:47,971 INFO    StreamThr :11488 [internal.py:wandb_internal():87] W&B internal server running at pid: 11488, started at: 2023-04-11 11:37:47.971420
+2023-04-11 11:37:47,974 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: status
+2023-04-11 11:37:47,974 INFO    WriterThread:11488 [datastore.py:open_for_write():85] open: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\run-ybkyd5jv.wandb
+2023-04-11 11:37:47,974 DEBUG   SenderThread:11488 [sender.py:send():336] send: header
+2023-04-11 11:37:48,049 DEBUG   SenderThread:11488 [sender.py:send():336] send: run
+2023-04-11 11:37:48,426 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: check_version
+2023-04-11 11:37:48,431 INFO    SenderThread:11488 [dir_watcher.py:__init__():219] watching files in: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files
+2023-04-11 11:37:48,431 INFO    SenderThread:11488 [sender.py:_start_run_threads():1078] run started: ybkyd5jv with start time 1681234667.971925
+2023-04-11 11:37:48,431 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:37:48,431 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:37:48,431 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: check_version
+2023-04-11 11:37:48,691 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: run_start
+2023-04-11 11:37:48,708 DEBUG   HandlerThread:11488 [system_info.py:__init__():31] System info init
+2023-04-11 11:37:48,708 DEBUG   HandlerThread:11488 [system_info.py:__init__():46] System info init done
+2023-04-11 11:37:48,708 INFO    HandlerThread:11488 [system_monitor.py:start():183] Starting system monitor
+2023-04-11 11:37:48,708 INFO    SystemMonitor:11488 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2023-04-11 11:37:48,710 INFO    HandlerThread:11488 [system_monitor.py:probe():204] Collecting system info
+2023-04-11 11:37:48,711 INFO    SystemMonitor:11488 [interfaces.py:start():187] Started cpu monitoring
+2023-04-11 11:37:48,711 DEBUG   HandlerThread:11488 [system_info.py:probe():195] Probing system
+2023-04-11 11:37:48,711 INFO    SystemMonitor:11488 [interfaces.py:start():187] Started disk monitoring
+2023-04-11 11:37:48,716 INFO    SystemMonitor:11488 [interfaces.py:start():187] Started memory monitoring
+2023-04-11 11:37:48,717 INFO    SystemMonitor:11488 [interfaces.py:start():187] Started network monitoring
+2023-04-11 11:37:48,733 DEBUG   HandlerThread:11488 [system_info.py:_probe_git():180] Probing git
+2023-04-11 11:37:48,836 DEBUG   HandlerThread:11488 [system_info.py:_probe_git():188] Probing git done
+2023-04-11 11:37:48,836 DEBUG   HandlerThread:11488 [system_info.py:probe():240] Probing system done
+2023-04-11 11:37:48,836 DEBUG   HandlerThread:11488 [system_monitor.py:probe():213] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.9.5', 'heartbeatAt': '2023-04-11T17:37:48.711777', 'startedAt': '2023-04-11T17:37:47.953238', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'C:\\Users\\PAVILION 15-DW001LA\\Documents\\Tesis\\Códigos\\RNAs\\Red_Densa\\RNA_densa.py', 'codePath': 'RNAs\\Red_Densa\\RNA_densa.py', 'git': {'remote': 'https://github.com/Eusoj25/Tesis.git', 'commit': 'dee2532ae4a69656bfb694530a02c220b8fbf363'}, 'email': '108889462+JosueRH25@users.noreply.github.com', 'root': 'C:/Users/PAVILION 15-DW001LA/Documents/Tesis/Códigos', 'host': 'LAPTOP-8SNF18AB', 'username': 'PAVILION 15-DW001LA', 'executable': 'C:\\Users\\PAVILION 15-DW001LA\\miniconda3\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1600.0, 'min': 0.0, 'max': 1800.0}, 'cpu_freq_per_core': [{'current': 1600.0, 'min': 0.0, 'max': 1800.0}], 'disk': {'total': 237.24120712280273, 'used': 161.0926628112793}, 'memory': {'total': 7.888965606689453}}
+2023-04-11 11:37:48,836 INFO    HandlerThread:11488 [system_monitor.py:probe():214] Finished collecting system info
+2023-04-11 11:37:48,836 INFO    HandlerThread:11488 [system_monitor.py:probe():217] Publishing system info
+2023-04-11 11:37:48,836 DEBUG   HandlerThread:11488 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-04-11 11:37:48,844 DEBUG   HandlerThread:11488 [system_info.py:_save_pip():67] Saving pip packages done
+2023-04-11 11:37:48,844 DEBUG   HandlerThread:11488 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-04-11 11:37:49,443 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\requirements.txt
+2023-04-11 11:37:49,443 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\conda-environment.yaml
+2023-04-11 11:37:49,443 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\wandb-summary.json
+2023-04-11 11:37:53,210 DEBUG   HandlerThread:11488 [system_info.py:_save_conda():86] Saving conda packages done
+2023-04-11 11:37:53,210 INFO    HandlerThread:11488 [system_monitor.py:probe():219] Finished publishing system info
+2023-04-11 11:37:53,212 DEBUG   SenderThread:11488 [sender.py:send():336] send: files
+2023-04-11 11:37:53,212 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2023-04-11 11:37:53,223 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: status_report
+2023-04-11 11:37:53,233 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-11 11:37:53,233 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: stop_status
+2023-04-11 11:37:53,239 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: get_summary
+2023-04-11 11:37:53,433 DEBUG   SenderThread:11488 [sender.py:send():336] send: telemetry
+2023-04-11 11:37:53,433 DEBUG   SenderThread:11488 [sender.py:send():336] send: telemetry
+2023-04-11 11:37:53,433 DEBUG   SenderThread:11488 [sender.py:send():336] send: config
+2023-04-11 11:37:53,433 DEBUG   SenderThread:11488 [sender.py:send():336] send: config
+2023-04-11 11:37:53,433 DEBUG   SenderThread:11488 [sender.py:send():336] send: config
+2023-04-11 11:37:53,433 DEBUG   SenderThread:11488 [sender.py:send():336] send: config
+2023-04-11 11:37:53,433 DEBUG   SenderThread:11488 [sender.py:send():336] send: config
+2023-04-11 11:37:53,433 DEBUG   SenderThread:11488 [sender.py:send():336] send: config
+2023-04-11 11:37:53,435 DEBUG   SenderThread:11488 [sender.py:send():336] send: config
+2023-04-11 11:37:53,435 DEBUG   SenderThread:11488 [sender.py:send():336] send: telemetry
+2023-04-11 11:37:53,435 DEBUG   SenderThread:11488 [sender.py:send():336] send: telemetry
+2023-04-11 11:37:53,435 DEBUG   SenderThread:11488 [sender.py:send():336] send: files
+2023-04-11 11:37:53,435 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file model-best.h5 with policy live
+2023-04-11 11:37:53,435 DEBUG   SenderThread:11488 [sender.py:send():336] send: telemetry
+2023-04-11 11:37:53,475 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\conda-environment.yaml
+2023-04-11 11:37:53,477 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\wandb-metadata.json
+2023-04-11 11:37:53,477 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log
+2023-04-11 11:37:53,884 DEBUG   SenderThread:11488 [sender.py:send():336] send: files
+2023-04-11 11:37:53,884 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file media\graph\graph_summary_0058fef4fef5638f91c9.graph.json with policy now
+2023-04-11 11:37:53,884 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:37:53,891 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:37:53,932 INFO    wandb-upload_0:11488 [upload_job.py:push():138] Uploaded file C:\Users\PAVILI~1\AppData\Local\Temp\tmpw5jgeml1wandb\g08y1imu-wandb-metadata.json
+2023-04-11 11:37:54,309 INFO    wandb-upload_1:11488 [upload_job.py:push():138] Uploaded file C:\Users\PAVILI~1\AppData\Local\Temp\tmpw5jgeml1wandb\87s73yvg-media/graph/graph_summary_0058fef4fef5638f91c9.graph.json
+2023-04-11 11:37:54,440 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:37:54,440 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:37:54,442 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:37:54,442 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:37:54,443 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:37:54,443 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:37:54,443 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:37:54,443 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:37:54,443 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:37:54,482 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\wandb-summary.json
+2023-04-11 11:37:54,483 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best.h5
+2023-04-11 11:37:54,483 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\media\graph\graph_summary_0058fef4fef5638f91c9.graph.json
+2023-04-11 11:37:54,483 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\media\graph
+2023-04-11 11:37:54,483 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\media
+2023-04-11 11:37:55,490 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log
+2023-04-11 11:37:55,490 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\variables\variables.data-00000-of-00001
+2023-04-11 11:37:55,490 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\variables\variables.index
+2023-04-11 11:37:55,490 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\keras_metadata.pb
+2023-04-11 11:37:55,490 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\saved_model.pb
+2023-04-11 11:37:55,490 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\assets
+2023-04-11 11:37:55,490 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best
+2023-04-11 11:37:55,490 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\variables
+2023-04-11 11:37:55,599 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-11 11:37:55,599 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: log_artifact
+2023-04-11 11:37:55,741 INFO    wandb-upload_0:11488 [upload_job.py:push():138] Uploaded file C:\Users\PAVILI~1\AppData\Local\Temp\tmpw5jgeml1wandb\btyi3qbn-model-best.h5
+2023-04-11 11:37:56,074 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:37:56,074 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:37:56,498 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best.h5
+2023-04-11 11:37:56,894 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-11 11:37:56,894 INFO    wandb-upload_1:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpt6kwa97a
+2023-04-11 11:37:56,932 INFO    wandb-upload_3:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpaxj2mhej
+2023-04-11 11:37:56,995 INFO    wandb-upload_2:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmps13v57hm
+2023-04-11 11:37:57,318 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:37:57,318 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:37:57,508 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best.h5
+2023-04-11 11:37:57,508 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log
+2023-04-11 11:37:58,047 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-11 11:37:58,500 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:37:58,500 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:37:58,518 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best.h5
+2023-04-11 11:37:59,031 INFO    wandb-upload_0:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpriucyfsu
+2023-04-11 11:37:59,096 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-11 11:37:59,495 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:37:59,495 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:37:59,526 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best.h5
+2023-04-11 11:37:59,935 INFO    SenderThread:11488 [sender.py:send_request_log_artifact():1392] logged artifact model-deft-resonance-26 - {'id': 'QXJ0aWZhY3Q6NDIxNTU2NjE2', 'digest': 'ceaf451cfb25d0e0f2c8a275fe08c51e', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYxODMwNTA4', 'latestArtifact': None}, 'version': 'latest'}
+2023-04-11 11:37:59,935 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:37:59,935 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:37:59,935 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: status_report
+2023-04-11 11:37:59,935 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:37:59,935 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:37:59,935 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:37:59,935 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:37:59,935 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:37:59,935 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: log_artifact
+2023-04-11 11:38:00,075 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-11 11:38:00,504 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:00,504 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:00,536 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best.h5
+2023-04-11 11:38:00,536 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\wandb-summary.json
+2023-04-11 11:38:00,848 INFO    wandb-upload_1:11488 [upload_job.py:push():93] Skipped uploading C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpc51q17j_
+2023-04-11 11:38:01,206 INFO    wandb-upload_0:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpl7teenqd
+2023-04-11 11:38:01,245 INFO    wandb-upload_3:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpovkd648b
+2023-04-11 11:38:01,309 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-11 11:38:01,545 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log
+2023-04-11 11:38:01,750 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:01,750 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:02,555 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best.h5
+2023-04-11 11:38:02,555 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\variables\variables.data-00000-of-00001
+2023-04-11 11:38:02,555 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\variables\variables.index
+2023-04-11 11:38:02,555 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\keras_metadata.pb
+2023-04-11 11:38:02,555 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\saved_model.pb
+2023-04-11 11:38:02,555 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\assets
+2023-04-11 11:38:02,555 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best
+2023-04-11 11:38:02,555 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\variables
+2023-04-11 11:38:03,212 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-11 11:38:03,567 INFO    wandb-upload_2:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpch1_5kd1
+2023-04-11 11:38:03,652 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:03,652 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:04,233 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-11 11:38:04,425 INFO    SenderThread:11488 [sender.py:send_request_log_artifact():1392] logged artifact model-deft-resonance-26 - {'id': 'QXJ0aWZhY3Q6NDIxNTU2Njc4', 'digest': '7f430f08663dd21e57c89f2cc484a977', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYxODMwNTA4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDIxNTU2NjE2', 'versionIndex': 0}}, 'version': 'latest'}
+2023-04-11 11:38:04,425 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:38:04,425 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:04,431 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:04,431 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:04,434 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:04,435 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:04,435 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:04,439 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: log_artifact
+2023-04-11 11:38:04,577 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best.h5
+2023-04-11 11:38:04,593 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\wandb-summary.json
+2023-04-11 11:38:04,689 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:04,689 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:05,273 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-11 11:38:05,325 INFO    wandb-upload_1:11488 [upload_job.py:push():93] Skipped uploading C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpgn4tgh8d
+2023-04-11 11:38:05,573 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best.h5
+2023-04-11 11:38:05,576 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log
+2023-04-11 11:38:05,653 INFO    wandb-upload_2:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpref8e3th
+2023-04-11 11:38:05,724 INFO    wandb-upload_0:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmplupvuk9q
+2023-04-11 11:38:05,726 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:05,726 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:06,579 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best.h5
+2023-04-11 11:38:06,579 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\variables\variables.data-00000-of-00001
+2023-04-11 11:38:06,579 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\variables\variables.index
+2023-04-11 11:38:06,579 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\keras_metadata.pb
+2023-04-11 11:38:06,579 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\saved_model.pb
+2023-04-11 11:38:06,579 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\assets
+2023-04-11 11:38:06,579 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best
+2023-04-11 11:38:06,579 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\variables
+2023-04-11 11:38:06,689 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-11 11:38:06,822 INFO    wandb-upload_3:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpx4j1_e0m
+2023-04-11 11:38:07,131 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:07,131 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:07,587 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best.h5
+2023-04-11 11:38:07,587 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\variables\variables.data-00000-of-00001
+2023-04-11 11:38:07,587 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\variables\variables.index
+2023-04-11 11:38:07,587 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\keras_metadata.pb
+2023-04-11 11:38:07,587 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\saved_model.pb
+2023-04-11 11:38:07,587 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\assets
+2023-04-11 11:38:07,587 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best
+2023-04-11 11:38:07,587 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\variables
+2023-04-11 11:38:07,713 INFO    SenderThread:11488 [sender.py:send_request_log_artifact():1392] logged artifact model-deft-resonance-26 - {'id': 'QXJ0aWZhY3Q6NDIxNTU2NzU0', 'digest': 'ea7222c86ab0f1f6dda19710eebf0ec0', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYxODMwNTA4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDIxNTU2Njc4', 'versionIndex': 1}}, 'version': 'latest'}
+2023-04-11 11:38:07,713 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:38:07,713 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:07,713 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: status_report
+2023-04-11 11:38:07,713 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-11 11:38:07,726 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:07,729 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:07,729 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:07,729 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:07,729 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:07,729 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: log_artifact
+2023-04-11 11:38:08,141 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:08,141 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:08,235 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-11 11:38:08,598 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best.h5
+2023-04-11 11:38:08,598 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\wandb-summary.json
+2023-04-11 11:38:08,598 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\variables\variables.data-00000-of-00001
+2023-04-11 11:38:08,598 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\variables\variables.index
+2023-04-11 11:38:08,598 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\keras_metadata.pb
+2023-04-11 11:38:08,598 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\saved_model.pb
+2023-04-11 11:38:08,598 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\assets
+2023-04-11 11:38:08,598 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best
+2023-04-11 11:38:08,598 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\variables
+2023-04-11 11:38:08,659 INFO    wandb-upload_1:11488 [upload_job.py:push():93] Skipped uploading C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmp1bqc039v
+2023-04-11 11:38:08,738 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-11 11:38:08,994 INFO    wandb-upload_3:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmp_mvb9zde
+2023-04-11 11:38:09,052 INFO    wandb-upload_2:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmprzsqlw_m
+2023-04-11 11:38:09,188 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:09,188 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:09,611 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best.h5
+2023-04-11 11:38:09,614 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log
+2023-04-11 11:38:09,614 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\variables\variables.data-00000-of-00001
+2023-04-11 11:38:09,614 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\variables\variables.index
+2023-04-11 11:38:09,614 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\assets
+2023-04-11 11:38:09,614 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best
+2023-04-11 11:38:09,614 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\variables
+2023-04-11 11:38:10,305 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-11 11:38:10,406 INFO    wandb-upload_0:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpzbgc346x
+2023-04-11 11:38:10,728 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:10,728 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:11,199 INFO    SenderThread:11488 [sender.py:send_request_log_artifact():1392] logged artifact model-deft-resonance-26 - {'id': 'QXJ0aWZhY3Q6NDIxNTU2ODEy', 'digest': 'ba3c0b708467f382f6cd812ad8e51db8', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYxODMwNTA4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDIxNTU2NzU0', 'versionIndex': 2}}, 'version': 'latest'}
+2023-04-11 11:38:11,206 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:38:11,206 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:11,206 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:11,206 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:11,208 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:11,208 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:11,209 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:11,209 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: log_artifact
+2023-04-11 11:38:11,515 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-11 11:38:11,643 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best.h5
+2023-04-11 11:38:11,649 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\wandb-summary.json
+2023-04-11 11:38:11,944 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:11,944 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:12,085 INFO    wandb-upload_1:11488 [upload_job.py:push():93] Skipped uploading C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpepoz7vp5
+2023-04-11 11:38:12,392 INFO    wandb-upload_0:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpixdeltqr
+2023-04-11 11:38:12,423 INFO    wandb-upload_3:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpkup35g9_
+2023-04-11 11:38:12,651 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best.h5
+2023-04-11 11:38:12,651 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\variables\variables.data-00000-of-00001
+2023-04-11 11:38:12,651 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\variables\variables.index
+2023-04-11 11:38:12,651 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\keras_metadata.pb
+2023-04-11 11:38:12,651 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\saved_model.pb
+2023-04-11 11:38:12,651 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\assets
+2023-04-11 11:38:12,651 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best
+2023-04-11 11:38:12,651 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\variables
+2023-04-11 11:38:12,885 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-11 11:38:13,281 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-11 11:38:13,312 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:13,312 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:13,453 INFO    wandb-upload_2:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmp5nhia7zh
+2023-04-11 11:38:13,657 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best.h5
+2023-04-11 11:38:13,657 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log
+2023-04-11 11:38:13,925 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-11 11:38:14,292 INFO    SenderThread:11488 [sender.py:send_request_log_artifact():1392] logged artifact model-deft-resonance-26 - {'id': 'QXJ0aWZhY3Q6NDIxNTU2ODYx', 'digest': '3d95968f789a54d356f9d7c4b03e11a9', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYxODMwNTA4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDIxNTU2ODEy', 'versionIndex': 3}}, 'version': 'latest'}
+2023-04-11 11:38:14,307 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: status_report
+2023-04-11 11:38:14,307 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:38:14,307 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:14,309 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:14,309 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:14,309 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:14,309 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:14,309 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:14,309 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: log_artifact
+2023-04-11 11:38:14,355 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:14,355 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:14,669 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best.h5
+2023-04-11 11:38:14,669 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\wandb-summary.json
+2023-04-11 11:38:14,938 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-11 11:38:15,105 INFO    wandb-upload_1:11488 [upload_job.py:push():93] Skipped uploading C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpd0l08jga
+2023-04-11 11:38:15,349 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:15,349 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:15,482 INFO    wandb-upload_0:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpw98nbgmk
+2023-04-11 11:38:15,490 INFO    wandb-upload_2:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpiw17pt5o
+2023-04-11 11:38:15,681 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log
+2023-04-11 11:38:15,765 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:15,765 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:16,689 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best.h5
+2023-04-11 11:38:16,689 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\variables\variables.data-00000-of-00001
+2023-04-11 11:38:16,689 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\variables\variables.index
+2023-04-11 11:38:16,689 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\keras_metadata.pb
+2023-04-11 11:38:16,689 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\saved_model.pb
+2023-04-11 11:38:16,689 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\assets
+2023-04-11 11:38:16,689 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best
+2023-04-11 11:38:16,689 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\variables
+2023-04-11 11:38:17,207 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-11 11:38:17,328 INFO    wandb-upload_3:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpd57cltpm
+2023-04-11 11:38:17,653 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:17,653 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:17,700 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best.h5
+2023-04-11 11:38:18,040 INFO    SenderThread:11488 [sender.py:send_request_log_artifact():1392] logged artifact model-deft-resonance-26 - {'id': 'QXJ0aWZhY3Q6NDIxNTU2OTA4', 'digest': '76b6375b8d74395e6a1acf5845048ce1', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYxODMwNTA4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDIxNTU2ODYx', 'versionIndex': 4}}, 'version': 'latest'}
+2023-04-11 11:38:18,040 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:38:18,040 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:18,046 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:18,046 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:18,046 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:18,046 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:18,046 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:18,046 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: log_artifact
+2023-04-11 11:38:18,251 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-11 11:38:18,332 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-11 11:38:18,660 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:18,660 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:18,709 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best.h5
+2023-04-11 11:38:18,709 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\wandb-summary.json
+2023-04-11 11:38:19,133 INFO    wandb-upload_1:11488 [upload_job.py:push():93] Skipped uploading C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmp8688onw5
+2023-04-11 11:38:19,261 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-11 11:38:19,409 INFO    wandb-upload_3:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmp87ophe0i
+2023-04-11 11:38:19,474 INFO    wandb-upload_0:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmp4upm7ncs
+2023-04-11 11:38:19,703 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:19,708 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:19,718 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log
+2023-04-11 11:38:20,105 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:20,105 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:20,532 INFO    wandb-upload_2:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpz962pwh3
+2023-04-11 11:38:20,563 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:20,563 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:20,971 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:20,971 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:21,303 INFO    SenderThread:11488 [sender.py:send_request_log_artifact():1392] logged artifact model-deft-resonance-26 - {'id': 'QXJ0aWZhY3Q6NDIxNTU2OTY3', 'digest': '51ef0c77c6737357c6def0a3ad614caf', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYxODMwNTA4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDIxNTU2OTA4', 'versionIndex': 5}}, 'version': 'latest'}
+2023-04-11 11:38:21,319 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: status_report
+2023-04-11 11:38:21,367 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:21,367 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:21,461 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:38:21,461 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:21,461 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:21,461 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:21,461 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:21,461 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:21,461 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:21,461 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: log_artifact
+2023-04-11 11:38:21,730 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best.h5
+2023-04-11 11:38:21,730 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\wandb-summary.json
+2023-04-11 11:38:21,730 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\config.yaml
+2023-04-11 11:38:21,934 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-11 11:38:22,282 INFO    wandb-upload_1:11488 [upload_job.py:push():93] Skipped uploading C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpc_4nfpbo
+2023-04-11 11:38:22,377 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:22,377 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:22,570 INFO    wandb-upload_2:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmp1hzjwlsq
+2023-04-11 11:38:22,597 INFO    wandb-upload_3:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmp9pp861cz
+2023-04-11 11:38:22,802 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:22,802 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:23,200 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:23,200 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:23,374 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-11 11:38:23,473 INFO    wandb-upload_0:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpa0fms8d5
+2023-04-11 11:38:23,619 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:23,619 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:23,748 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log
+2023-04-11 11:38:24,021 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:24,021 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:24,307 INFO    SenderThread:11488 [sender.py:send_request_log_artifact():1392] logged artifact model-deft-resonance-26 - {'id': 'QXJ0aWZhY3Q6NDIxNTU3MDE3', 'digest': '6ef42ce8ee47636ce71864a55b1ca208', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYxODMwNTA4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDIxNTU2OTY3', 'versionIndex': 6}}, 'version': 'latest'}
+2023-04-11 11:38:24,309 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:38:24,309 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:24,311 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:24,311 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:24,321 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:24,321 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:24,321 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:24,321 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: log_artifact
+2023-04-11 11:38:24,432 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:24,432 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:24,761 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best.h5
+2023-04-11 11:38:24,761 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\wandb-summary.json
+2023-04-11 11:38:25,029 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-11 11:38:25,215 INFO    wandb-upload_1:11488 [upload_job.py:push():93] Skipped uploading C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpu9xma70y
+2023-04-11 11:38:25,517 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:25,517 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:25,560 INFO    wandb-upload_0:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpja7bytui
+2023-04-11 11:38:25,585 INFO    wandb-upload_2:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmp2r5tegh7
+2023-04-11 11:38:25,771 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log
+2023-04-11 11:38:25,931 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:25,931 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:26,527 INFO    wandb-upload_3:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpg3d1omlc
+2023-04-11 11:38:26,563 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-11 11:38:26,782 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best.h5
+2023-04-11 11:38:26,994 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:26,994 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:27,326 INFO    SenderThread:11488 [sender.py:send_request_log_artifact():1392] logged artifact model-deft-resonance-26 - {'id': 'QXJ0aWZhY3Q6NDIxNTU3MDYx', 'digest': 'b0312f0182c16c4925242d195a105b09', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYxODMwNTA4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDIxNTU3MDE3', 'versionIndex': 7}}, 'version': 'latest'}
+2023-04-11 11:38:27,327 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:38:27,327 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:27,328 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: status_report
+2023-04-11 11:38:27,328 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:27,328 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:27,330 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:27,330 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:27,331 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:27,331 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: log_artifact
+2023-04-11 11:38:27,406 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:27,406 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:27,783 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\wandb-summary.json
+2023-04-11 11:38:27,783 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log
+2023-04-11 11:38:27,830 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:27,830 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:28,227 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:28,227 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:28,335 INFO    wandb-upload_1:11488 [upload_job.py:push():93] Skipped uploading C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmp6bwxm9ll
+2023-04-11 11:38:28,414 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-11 11:38:28,658 INFO    wandb-upload_3:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpjh57_d0f
+2023-04-11 11:38:28,720 INFO    wandb-upload_0:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpwyio_7_v
+2023-04-11 11:38:28,792 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best.h5
+2023-04-11 11:38:28,792 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\variables\variables.data-00000-of-00001
+2023-04-11 11:38:28,792 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\variables\variables.index
+2023-04-11 11:38:28,792 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\keras_metadata.pb
+2023-04-11 11:38:28,803 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\saved_model.pb
+2023-04-11 11:38:28,804 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\assets
+2023-04-11 11:38:28,804 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best
+2023-04-11 11:38:28,806 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\variables
+2023-04-11 11:38:29,297 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-11 11:38:29,538 INFO    wandb-upload_2:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpkcc5x7na
+2023-04-11 11:38:29,713 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:29,713 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:30,114 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:30,114 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:30,297 INFO    SenderThread:11488 [sender.py:send_request_log_artifact():1392] logged artifact model-deft-resonance-26 - {'id': 'QXJ0aWZhY3Q6NDIxNTU3MTAz', 'digest': '1dee6ddc82707a36513b6f67d40a83b6', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYxODMwNTA4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDIxNTU3MDYx', 'versionIndex': 8}}, 'version': 'latest'}
+2023-04-11 11:38:30,297 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:38:30,299 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:30,303 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:30,306 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:30,308 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:30,309 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:30,310 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:30,312 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: log_artifact
+2023-04-11 11:38:30,541 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:30,541 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:30,814 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\wandb-summary.json
+2023-04-11 11:38:30,972 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:30,972 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:31,210 INFO    wandb-upload_1:11488 [upload_job.py:push():93] Skipped uploading C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmps64sj5kz
+2023-04-11 11:38:31,383 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:31,384 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:31,543 INFO    wandb-upload_2:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpupeqi_2e
+2023-04-11 11:38:31,582 INFO    wandb-upload_3:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmp7c_1nmmh
+2023-04-11 11:38:31,825 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best.h5
+2023-04-11 11:38:31,825 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log
+2023-04-11 11:38:31,825 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\variables\variables.data-00000-of-00001
+2023-04-11 11:38:31,825 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\variables\variables.index
+2023-04-11 11:38:31,825 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\assets
+2023-04-11 11:38:31,825 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best
+2023-04-11 11:38:31,825 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best\variables
+2023-04-11 11:38:32,522 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: log_artifact
+2023-04-11 11:38:32,648 INFO    wandb-upload_0:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmp_u46_82q
+2023-04-11 11:38:32,959 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:32,959 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:33,359 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:33,359 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:33,409 INFO    SenderThread:11488 [sender.py:send_request_log_artifact():1392] logged artifact model-deft-resonance-26 - {'id': 'QXJ0aWZhY3Q6NDIxNTU3MTUz', 'digest': 'bf7d198ca2b203cb2927487b5437b2d8', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYxODMwNTA4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDIxNTU3MTAz', 'versionIndex': 9}}, 'version': 'latest'}
+2023-04-11 11:38:33,411 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:38:33,411 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: status_report
+2023-04-11 11:38:33,411 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:33,415 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:33,415 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:33,415 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:33,418 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:33,418 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:33,418 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: stop_status
+2023-04-11 11:38:33,460 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-11 11:38:33,571 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: log_artifact
+2023-04-11 11:38:33,771 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:33,771 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:33,869 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\wandb-summary.json
+2023-04-11 11:38:33,872 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log
+2023-04-11 11:38:34,183 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:34,183 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:34,422 INFO    wandb-upload_1:11488 [upload_job.py:push():93] Skipped uploading C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpdv75pe29
+2023-04-11 11:38:34,591 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:34,591 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:34,721 INFO    wandb-upload_0:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpxj_icsj0
+2023-04-11 11:38:34,749 INFO    wandb-upload_2:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmp3p64bc4d
+2023-04-11 11:38:35,011 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:35,011 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:35,412 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:35,412 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-11 11:38:35,843 INFO    wandb-upload_3:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmp04pypt_s
+2023-04-11 11:38:35,890 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log
+2023-04-11 11:38:36,582 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-11 11:38:36,721 INFO    SenderThread:11488 [sender.py:send_request_log_artifact():1392] logged artifact model-deft-resonance-26 - {'id': 'QXJ0aWZhY3Q6NDIxNTU3MjA3', 'digest': '219280d2b5730f1d7fecde1fb54a8fdb', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYxODMwNTA4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDIxNTU3MTUz', 'versionIndex': 10}}, 'version': 'latest'}
+2023-04-11 11:38:36,721 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:38:36,723 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:36,724 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:36,724 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:36,724 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:36,724 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:36,724 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:36,724 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: log_artifact
+2023-04-11 11:38:36,898 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\wandb-summary.json
+2023-04-11 11:38:37,734 INFO    wandb-upload_1:11488 [upload_job.py:push():93] Skipped uploading C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpwrxlykfc
+2023-04-11 11:38:37,908 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log
+2023-04-11 11:38:38,129 INFO    wandb-upload_3:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpqrha_tuw
+2023-04-11 11:38:38,222 INFO    wandb-upload_0:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpndvx6lxt
+2023-04-11 11:38:39,496 INFO    wandb-upload_2:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmplip8tlq3
+2023-04-11 11:38:40,341 INFO    SenderThread:11488 [sender.py:send_request_log_artifact():1392] logged artifact model-deft-resonance-26 - {'id': 'QXJ0aWZhY3Q6NDIxNTU3Mjkw', 'digest': '4b4d437296d602c2767ac252d0755c17', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYxODMwNTA4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDIxNTU3MjA3', 'versionIndex': 11}}, 'version': 'latest'}
+2023-04-11 11:38:40,344 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:38:40,346 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:40,346 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: status_report
+2023-04-11 11:38:40,346 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:40,351 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:40,351 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:40,351 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:40,351 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:40,357 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: log_artifact
+2023-04-11 11:38:40,927 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\wandb-summary.json
+2023-04-11 11:38:41,336 INFO    wandb-upload_1:11488 [upload_job.py:push():93] Skipped uploading C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpqfhde81t
+2023-04-11 11:38:41,619 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-11 11:38:41,697 INFO    wandb-upload_2:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmp40yx7fb6
+2023-04-11 11:38:41,721 INFO    wandb-upload_3:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpo9z_y9_u
+2023-04-11 11:38:41,949 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log
+2023-04-11 11:38:43,112 INFO    wandb-upload_0:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpt9gbu1vb
+2023-04-11 11:38:43,897 INFO    SenderThread:11488 [sender.py:send_request_log_artifact():1392] logged artifact model-deft-resonance-26 - {'id': 'QXJ0aWZhY3Q6NDIxNTU3MzQz', 'digest': 'd36ce85cf565816b4e1f807f58a64e0c', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYxODMwNTA4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDIxNTU3Mjkw', 'versionIndex': 12}}, 'version': 'latest'}
+2023-04-11 11:38:43,897 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:38:43,897 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:43,897 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:43,912 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:43,912 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:43,912 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:43,912 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:43,912 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: log_artifact
+2023-04-11 11:38:43,959 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\wandb-summary.json
+2023-04-11 11:38:44,816 INFO    wandb-upload_1:11488 [upload_job.py:push():93] Skipped uploading C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpp6j9zblq
+2023-04-11 11:38:45,187 INFO    wandb-upload_2:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpe30vafpg
+2023-04-11 11:38:45,196 INFO    wandb-upload_0:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpqbf57lfg
+2023-04-11 11:38:45,980 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log
+2023-04-11 11:38:46,315 INFO    wandb-upload_3:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpgzupfer1
+2023-04-11 11:38:46,657 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-11 11:38:47,143 INFO    SenderThread:11488 [sender.py:send_request_log_artifact():1392] logged artifact model-deft-resonance-26 - {'id': 'QXJ0aWZhY3Q6NDIxNTU3Mzk1', 'digest': '538083a6a492d7575666f1f32cf269a8', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYxODMwNTA4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDIxNTU3MzQz', 'versionIndex': 13}}, 'version': 'latest'}
+2023-04-11 11:38:47,143 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:38:47,143 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:47,143 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: status_report
+2023-04-11 11:38:47,162 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:47,162 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:47,162 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:47,162 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:47,162 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:47,162 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: log_artifact
+2023-04-11 11:38:47,993 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\wandb-summary.json
+2023-04-11 11:38:47,993 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log
+2023-04-11 11:38:48,071 INFO    wandb-upload_1:11488 [upload_job.py:push():93] Skipped uploading C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpganax_5k
+2023-04-11 11:38:48,389 INFO    wandb-upload_3:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmps9zg7e68
+2023-04-11 11:38:48,414 INFO    wandb-upload_2:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpyibucg47
+2023-04-11 11:38:48,747 DEBUG   SystemMonitor:11488 [system_monitor.py:_start():161] Starting system metrics aggregation loop
+2023-04-11 11:38:49,674 INFO    wandb-upload_0:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpkxkormne
+2023-04-11 11:38:50,512 INFO    SenderThread:11488 [sender.py:send_request_log_artifact():1392] logged artifact model-deft-resonance-26 - {'id': 'QXJ0aWZhY3Q6NDIxNTU3NDQ5', 'digest': '4ffc2a4d1b40e59305567270b630b377', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYxODMwNTA4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDIxNTU3Mzk1', 'versionIndex': 14}}, 'version': 'latest'}
+2023-04-11 11:38:50,512 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:38:50,512 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:50,527 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:50,527 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:50,527 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:50,527 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:50,527 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:50,527 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: log_artifact
+2023-04-11 11:38:51,031 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\wandb-summary.json
+2023-04-11 11:38:51,504 INFO    wandb-upload_1:11488 [upload_job.py:push():93] Skipped uploading C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpp8p4c2pk
+2023-04-11 11:38:51,694 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-11 11:38:51,910 INFO    wandb-upload_3:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmp_151bx25
+2023-04-11 11:38:51,910 INFO    wandb-upload_0:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmprn9011fs
+2023-04-11 11:38:52,043 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log
+2023-04-11 11:38:52,738 INFO    wandb-upload_2:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpivei09v0
+2023-04-11 11:38:53,533 INFO    SenderThread:11488 [sender.py:send_request_log_artifact():1392] logged artifact model-deft-resonance-26 - {'id': 'QXJ0aWZhY3Q6NDIxNTU3NDk5', 'digest': '33cdd00df5ada5f55d340d6069db1285', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYxODMwNTA4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDIxNTU3NDQ5', 'versionIndex': 15}}, 'version': 'latest'}
+2023-04-11 11:38:53,533 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:38:53,533 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:53,533 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: status_report
+2023-04-11 11:38:53,548 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:53,548 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:38:53,548 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:53,548 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:53,548 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:53,548 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:53,548 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:53,548 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:53,548 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: log_artifact
+2023-04-11 11:38:54,073 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\wandb-summary.json
+2023-04-11 11:38:54,073 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log
+2023-04-11 11:38:54,439 INFO    wandb-upload_1:11488 [upload_job.py:push():93] Skipped uploading C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpfr5m9x1f
+2023-04-11 11:38:54,789 INFO    wandb-upload_2:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpv536qt1i
+2023-04-11 11:38:54,833 INFO    wandb-upload_3:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmphejle7ru
+2023-04-11 11:38:55,868 INFO    wandb-upload_0:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpo6y0xi1k
+2023-04-11 11:38:56,743 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-11 11:38:56,759 INFO    SenderThread:11488 [sender.py:send_request_log_artifact():1392] logged artifact model-deft-resonance-26 - {'id': 'QXJ0aWZhY3Q6NDIxNTU3NTU0', 'digest': '27dd2f8cc006087acbb5cf2d097d9fd7', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYxODMwNTA4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDIxNTU3NDk5', 'versionIndex': 16}}, 'version': 'latest'}
+2023-04-11 11:38:56,759 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:38:56,759 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:56,759 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:56,759 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:56,775 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:56,775 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:38:56,775 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:38:56,775 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: log_artifact
+2023-04-11 11:38:57,106 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\wandb-summary.json
+2023-04-11 11:38:57,739 INFO    wandb-upload_1:11488 [upload_job.py:push():93] Skipped uploading C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmp6rhp_w8f
+2023-04-11 11:38:58,103 INFO    wandb-upload_0:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpafovqf9f
+2023-04-11 11:38:58,129 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log
+2023-04-11 11:38:58,135 INFO    wandb-upload_2:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpvwdi1pw1
+2023-04-11 11:38:59,613 INFO    wandb-upload_3:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmp_cmb0x8d
+2023-04-11 11:39:00,428 INFO    SenderThread:11488 [sender.py:send_request_log_artifact():1392] logged artifact model-deft-resonance-26 - {'id': 'QXJ0aWZhY3Q6NDIxNTU3NjA4', 'digest': 'c4fa5799577e212728e574fac7202d5e', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYxODMwNTA4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDIxNTU3NTU0', 'versionIndex': 17}}, 'version': 'latest'}
+2023-04-11 11:39:00,428 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:39:00,428 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:00,428 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: status_report
+2023-04-11 11:39:00,431 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:00,431 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:00,434 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:00,435 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:00,435 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:00,435 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: log_artifact
+2023-04-11 11:39:01,153 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\wandb-summary.json
+2023-04-11 11:39:01,312 INFO    wandb-upload_1:11488 [upload_job.py:push():93] Skipped uploading C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpkaqcaixr
+2023-04-11 11:39:01,673 INFO    wandb-upload_0:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmp870f5fgw
+2023-04-11 11:39:01,673 INFO    wandb-upload_3:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmp4z93sls5
+2023-04-11 11:39:01,802 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-11 11:39:02,167 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log
+2023-04-11 11:39:02,892 INFO    wandb-upload_2:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmp6vb84h98
+2023-04-11 11:39:06,802 INFO    SenderThread:11488 [sender.py:send_request_log_artifact():1392] logged artifact model-deft-resonance-26 - {'id': 'QXJ0aWZhY3Q6NDIxNTU3NjYz', 'digest': 'c4ee30de844d86148a52f7bcc686ade7', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYxODMwNTA4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDIxNTU3NjA4', 'versionIndex': 18}}, 'version': 'latest'}
+2023-04-11 11:39:06,802 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:39:06,802 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:06,802 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: status_report
+2023-04-11 11:39:06,802 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:06,802 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:39:06,802 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:06,802 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:06,802 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:39:06,818 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:06,818 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:06,818 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:39:06,818 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:06,818 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:06,818 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:39:06,818 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:06,818 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:06,818 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:06,818 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:06,818 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:06,818 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:06,818 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: log_artifact
+2023-04-11 11:39:06,865 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-11 11:39:07,215 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\wandb-summary.json
+2023-04-11 11:39:07,862 INFO    wandb-upload_1:11488 [upload_job.py:push():93] Skipped uploading C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmp4o_ep5ss
+2023-04-11 11:39:08,202 INFO    wandb-upload_2:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmp9rjpkkcb
+2023-04-11 11:39:08,230 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log
+2023-04-11 11:39:08,337 INFO    wandb-upload_0:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpyj5ff6oz
+2023-04-11 11:39:09,780 INFO    wandb-upload_3:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpwjfsl82a
+2023-04-11 11:39:10,743 INFO    SenderThread:11488 [sender.py:send_request_log_artifact():1392] logged artifact model-deft-resonance-26 - {'id': 'QXJ0aWZhY3Q6NDIxNTU3NzMw', 'digest': 'e9f9b1e6394f69004c339e679853c52e', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYxODMwNTA4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDIxNTU3NjYz', 'versionIndex': 19}}, 'version': 'latest'}
+2023-04-11 11:39:10,743 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:39:10,743 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:10,743 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:10,743 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:39:10,743 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:10,743 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:10,743 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:39:10,743 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:10,743 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:10,759 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:39:10,759 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:10,759 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:10,759 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:39:10,759 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:10,759 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:10,759 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:39:10,759 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:10,759 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:10,759 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:10,759 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:10,759 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:10,759 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:10,759 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: log_artifact
+2023-04-11 11:39:11,262 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\wandb-summary.json
+2023-04-11 11:39:11,653 INFO    wandb-upload_1:11488 [upload_job.py:push():93] Skipped uploading C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpjrkpx33u
+2023-04-11 11:39:11,922 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-11 11:39:11,987 INFO    wandb-upload_3:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpt5qakk_0
+2023-04-11 11:39:12,057 INFO    wandb-upload_2:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpovk5xxm0
+2023-04-11 11:39:12,268 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log
+2023-04-11 11:39:13,052 INFO    wandb-upload_0:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpx0k594gt
+2023-04-11 11:39:13,928 INFO    SenderThread:11488 [sender.py:send_request_log_artifact():1392] logged artifact model-deft-resonance-26 - {'id': 'QXJ0aWZhY3Q6NDIxNTU3Nzg3', 'digest': '755c6e9f26ac675bc689ede2e212768c', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYxODMwNTA4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDIxNTU3NzMw', 'versionIndex': 20}}, 'version': 'latest'}
+2023-04-11 11:39:13,928 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:39:13,928 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:13,928 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: status_report
+2023-04-11 11:39:13,937 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:13,939 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:39:13,939 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:13,940 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:13,940 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:13,940 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:13,942 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:13,942 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:13,942 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: log_artifact
+2023-04-11 11:39:14,285 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\wandb-summary.json
+2023-04-11 11:39:14,760 INFO    wandb-upload_1:11488 [upload_job.py:push():93] Skipped uploading C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpr10ym1gn
+2023-04-11 11:39:15,093 INFO    wandb-upload_0:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpv92wqia3
+2023-04-11 11:39:15,138 INFO    wandb-upload_3:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpgvjax4v6
+2023-04-11 11:39:15,924 INFO    wandb-upload_2:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpkmfolud2
+2023-04-11 11:39:16,300 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log
+2023-04-11 11:39:16,780 INFO    SenderThread:11488 [sender.py:send_request_log_artifact():1392] logged artifact model-deft-resonance-26 - {'id': 'QXJ0aWZhY3Q6NDIxNTU3ODI3', 'digest': 'c1d8cff8c9ec0e80463ec77e4536e9cf', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYxODMwNTA4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDIxNTU3Nzg3', 'versionIndex': 21}}, 'version': 'latest'}
+2023-04-11 11:39:16,780 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:39:16,780 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:16,789 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:16,789 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:39:16,792 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:16,794 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:16,794 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:39:16,794 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:16,794 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:16,794 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:39:16,794 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:16,801 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:16,802 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:16,802 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:16,804 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:16,804 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:16,804 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: log_artifact
+2023-04-11 11:39:16,967 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-11 11:39:17,306 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\wandb-summary.json
+2023-04-11 11:39:17,783 INFO    wandb-upload_1:11488 [upload_job.py:push():93] Skipped uploading C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpnc06dyew
+2023-04-11 11:39:18,072 INFO    wandb-upload_2:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpamwor0fh
+2023-04-11 11:39:18,119 INFO    wandb-upload_0:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpk5swhy57
+2023-04-11 11:39:18,310 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log
+2023-04-11 11:39:19,145 INFO    wandb-upload_3:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpoix2hq85
+2023-04-11 11:39:19,970 INFO    SenderThread:11488 [sender.py:send_request_log_artifact():1392] logged artifact model-deft-resonance-26 - {'id': 'QXJ0aWZhY3Q6NDIxNTU3ODcx', 'digest': '701f46beb3c0555c2ebe9a5b0f0b0fba', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYxODMwNTA4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDIxNTU3ODI3', 'versionIndex': 22}}, 'version': 'latest'}
+2023-04-11 11:39:19,970 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:39:19,970 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:19,970 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: status_report
+2023-04-11 11:39:19,998 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:19,998 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:39:19,998 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:19,998 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:19,998 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:39:19,998 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:19,998 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:20,003 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:39:20,003 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:20,003 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:20,005 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:39:20,005 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:20,005 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:20,005 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:20,005 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:20,007 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:20,007 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:20,007 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: log_artifact
+2023-04-11 11:39:20,344 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\wandb-summary.json
+2023-04-11 11:39:20,900 INFO    wandb-upload_1:11488 [upload_job.py:push():93] Skipped uploading C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmp9eqr6aio
+2023-04-11 11:39:21,234 INFO    wandb-upload_3:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmptgjjcnom
+2023-04-11 11:39:21,263 INFO    wandb-upload_2:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpevz9gv4i
+2023-04-11 11:39:22,032 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-11 11:39:22,367 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log
+2023-04-11 11:39:22,894 INFO    wandb-upload_0:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmpaxu0r86i
+2023-04-11 11:39:23,672 INFO    SenderThread:11488 [sender.py:send_request_log_artifact():1392] logged artifact model-deft-resonance-26 - {'id': 'QXJ0aWZhY3Q6NDIxNTU3OTEy', 'digest': 'c86b5ce4bd45d298e6c50fa722bdd3fb', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYxODMwNTA4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDIxNTU3ODcx', 'versionIndex': 23}}, 'version': 'latest'}
+2023-04-11 11:39:23,672 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:39:23,672 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:23,676 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:23,676 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:39:23,676 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:23,679 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:23,681 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:39:23,681 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:23,681 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:23,683 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:39:23,683 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:23,685 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:23,686 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:39:23,686 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:23,687 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:23,688 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:39:23,688 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:23,689 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:23,689 DEBUG   SenderThread:11488 [sender.py:send():336] send: history
+2023-04-11 11:39:23,689 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: summary_record
+2023-04-11 11:39:23,690 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:23,691 DEBUG   SenderThread:11488 [sender.py:send():336] send: config
+2023-04-11 11:39:23,692 DEBUG   SenderThread:11488 [sender.py:send():336] send: config
+2023-04-11 11:39:23,692 DEBUG   SenderThread:11488 [sender.py:send():336] send: exit
+2023-04-11 11:39:23,692 INFO    SenderThread:11488 [sender.py:send_exit():559] handling exit code: 0
+2023-04-11 11:39:23,692 INFO    SenderThread:11488 [sender.py:send_exit():561] handling runtime: 46
+2023-04-11 11:39:23,693 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:23,694 INFO    SenderThread:11488 [sender.py:send_exit():567] send defer
+2023-04-11 11:39:23,694 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: poll_exit
+2023-04-11 11:39:23,694 DEBUG   SenderThread:11488 [sender.py:send():336] send: stats
+2023-04-11 11:39:23,694 DEBUG   SenderThread:11488 [sender.py:send():336] send: stats
+2023-04-11 11:39:23,695 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: defer
+2023-04-11 11:39:23,695 INFO    HandlerThread:11488 [handler.py:handle_request_defer():170] handle defer: 0
+2023-04-11 11:39:23,695 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: defer
+2023-04-11 11:39:23,696 INFO    SenderThread:11488 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-04-11 11:39:23,696 INFO    SenderThread:11488 [sender.py:transition_state():587] send defer: 1
+2023-04-11 11:39:23,696 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: defer
+2023-04-11 11:39:23,696 INFO    HandlerThread:11488 [handler.py:handle_request_defer():170] handle defer: 1
+2023-04-11 11:39:23,696 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: defer
+2023-04-11 11:39:23,696 INFO    SenderThread:11488 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-04-11 11:39:23,696 INFO    SenderThread:11488 [sender.py:transition_state():587] send defer: 2
+2023-04-11 11:39:23,696 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: defer
+2023-04-11 11:39:23,696 INFO    HandlerThread:11488 [handler.py:handle_request_defer():170] handle defer: 2
+2023-04-11 11:39:23,697 INFO    HandlerThread:11488 [system_monitor.py:finish():193] Stopping system monitor
+2023-04-11 11:39:23,697 DEBUG   SystemMonitor:11488 [system_monitor.py:_start():168] Finished system metrics aggregation loop
+2023-04-11 11:39:23,697 DEBUG   SystemMonitor:11488 [system_monitor.py:_start():172] Publishing last batch of metrics
+2023-04-11 11:39:23,698 INFO    HandlerThread:11488 [interfaces.py:finish():199] Joined cpu monitor
+2023-04-11 11:39:23,698 INFO    HandlerThread:11488 [interfaces.py:finish():199] Joined disk monitor
+2023-04-11 11:39:23,699 INFO    HandlerThread:11488 [interfaces.py:finish():199] Joined memory monitor
+2023-04-11 11:39:23,699 INFO    HandlerThread:11488 [interfaces.py:finish():199] Joined network monitor
+2023-04-11 11:39:23,699 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: defer
+2023-04-11 11:39:23,699 INFO    SenderThread:11488 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-04-11 11:39:23,699 INFO    SenderThread:11488 [sender.py:transition_state():587] send defer: 3
+2023-04-11 11:39:23,699 DEBUG   SenderThread:11488 [sender.py:send():336] send: stats
+2023-04-11 11:39:23,701 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: defer
+2023-04-11 11:39:23,701 INFO    HandlerThread:11488 [handler.py:handle_request_defer():170] handle defer: 3
+2023-04-11 11:39:23,701 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: defer
+2023-04-11 11:39:23,701 INFO    SenderThread:11488 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-04-11 11:39:23,701 INFO    SenderThread:11488 [sender.py:transition_state():587] send defer: 4
+2023-04-11 11:39:23,701 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: defer
+2023-04-11 11:39:23,702 INFO    HandlerThread:11488 [handler.py:handle_request_defer():170] handle defer: 4
+2023-04-11 11:39:23,702 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: defer
+2023-04-11 11:39:23,702 INFO    SenderThread:11488 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-04-11 11:39:23,702 INFO    SenderThread:11488 [sender.py:transition_state():587] send defer: 5
+2023-04-11 11:39:23,702 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: defer
+2023-04-11 11:39:23,702 INFO    HandlerThread:11488 [handler.py:handle_request_defer():170] handle defer: 5
+2023-04-11 11:39:23,703 DEBUG   SenderThread:11488 [sender.py:send():336] send: summary
+2023-04-11 11:39:23,704 INFO    SenderThread:11488 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-11 11:39:23,704 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: defer
+2023-04-11 11:39:23,704 INFO    SenderThread:11488 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-04-11 11:39:23,704 INFO    SenderThread:11488 [sender.py:transition_state():587] send defer: 6
+2023-04-11 11:39:23,704 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: defer
+2023-04-11 11:39:23,706 INFO    HandlerThread:11488 [handler.py:handle_request_defer():170] handle defer: 6
+2023-04-11 11:39:23,706 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: defer
+2023-04-11 11:39:23,706 INFO    SenderThread:11488 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-04-11 11:39:23,710 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: status_report
+2023-04-11 11:39:23,912 INFO    SenderThread:11488 [sender.py:transition_state():587] send defer: 7
+2023-04-11 11:39:23,912 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: defer
+2023-04-11 11:39:23,913 INFO    HandlerThread:11488 [handler.py:handle_request_defer():170] handle defer: 7
+2023-04-11 11:39:23,913 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: defer
+2023-04-11 11:39:23,913 INFO    SenderThread:11488 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-04-11 11:39:24,403 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log
+2023-04-11 11:39:24,403 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\wandb-summary.json
+2023-04-11 11:39:24,403 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\config.yaml
+2023-04-11 11:39:25,980 INFO    SenderThread:11488 [sender.py:transition_state():587] send defer: 8
+2023-04-11 11:39:25,980 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: defer
+2023-04-11 11:39:25,980 INFO    HandlerThread:11488 [handler.py:handle_request_defer():170] handle defer: 8
+2023-04-11 11:39:25,980 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: defer
+2023-04-11 11:39:25,980 INFO    SenderThread:11488 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-04-11 11:39:25,995 INFO    SenderThread:11488 [sender.py:transition_state():587] send defer: 9
+2023-04-11 11:39:25,995 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: defer
+2023-04-11 11:39:25,995 INFO    HandlerThread:11488 [handler.py:handle_request_defer():170] handle defer: 9
+2023-04-11 11:39:25,995 DEBUG   SenderThread:11488 [sender.py:send():336] send: artifact
+2023-04-11 11:39:26,430 INFO    Thread-17 :11488 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log
+2023-04-11 11:39:27,013 INFO    wandb-upload_1:11488 [upload_job.py:push():93] Skipped uploading C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmp33haz0ad
+2023-04-11 11:39:27,047 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-11 11:39:27,305 INFO    wandb-upload_3:11488 [upload_job.py:push():96] Uploaded file C:\Users\PAVILION 15-DW001LA\AppData\Local\wandb\wandb\artifacts\staging\tmplwjrvcao
+2023-04-11 11:39:28,443 INFO    SenderThread:11488 [sender.py:send_artifact():1428] sent artifact job-https___github.com_Eusoj25_Tesis.git_RNAs_Red_Densa_RNA_densa.py - {'id': 'QXJ0aWZhY3Q6NDIxNTU4MDEx', 'digest': '459cbf150ef98c6f9645e0418acd0ed8', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYwMjUxMTU5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDEzODcyMzQ0', 'versionIndex': 4}}, 'version': 'latest'}
+2023-04-11 11:39:28,444 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: defer
+2023-04-11 11:39:28,444 INFO    SenderThread:11488 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-04-11 11:39:28,444 INFO    SenderThread:11488 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-04-11 11:39:29,452 INFO    SenderThread:11488 [dir_watcher.py:finish():395] scan: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files
+2023-04-11 11:39:29,452 INFO    SenderThread:11488 [dir_watcher.py:finish():409] scan save: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\conda-environment.yaml conda-environment.yaml
+2023-04-11 11:39:29,454 INFO    SenderThread:11488 [dir_watcher.py:finish():409] scan save: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\config.yaml config.yaml
+2023-04-11 11:39:29,463 INFO    SenderThread:11488 [dir_watcher.py:finish():409] scan save: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\model-best.h5 model-best.h5
+2023-04-11 11:39:29,470 INFO    SenderThread:11488 [dir_watcher.py:finish():409] scan save: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log output.log
+2023-04-11 11:39:29,471 INFO    SenderThread:11488 [dir_watcher.py:finish():409] scan save: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\requirements.txt requirements.txt
+2023-04-11 11:39:29,473 INFO    SenderThread:11488 [dir_watcher.py:finish():409] scan save: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\wandb-metadata.json wandb-metadata.json
+2023-04-11 11:39:29,473 INFO    SenderThread:11488 [dir_watcher.py:finish():409] scan save: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\wandb-summary.json wandb-summary.json
+2023-04-11 11:39:29,475 INFO    SenderThread:11488 [dir_watcher.py:finish():409] scan save: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\media\graph\graph_summary_0058fef4fef5638f91c9.graph.json media\graph\graph_summary_0058fef4fef5638f91c9.graph.json
+2023-04-11 11:39:29,475 INFO    SenderThread:11488 [sender.py:transition_state():587] send defer: 10
+2023-04-11 11:39:29,476 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: defer
+2023-04-11 11:39:29,476 INFO    HandlerThread:11488 [handler.py:handle_request_defer():170] handle defer: 10
+2023-04-11 11:39:29,477 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: defer
+2023-04-11 11:39:29,477 INFO    SenderThread:11488 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-04-11 11:39:29,477 INFO    SenderThread:11488 [file_pusher.py:finish():164] shutting down file pusher
+2023-04-11 11:39:29,851 INFO    wandb-upload_1:11488 [upload_job.py:push():138] Uploaded file C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\config.yaml
+2023-04-11 11:39:29,998 INFO    wandb-upload_0:11488 [upload_job.py:push():138] Uploaded file C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\conda-environment.yaml
+2023-04-11 11:39:30,019 INFO    wandb-upload_5:11488 [upload_job.py:push():138] Uploaded file C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\wandb-summary.json
+2023-04-11 11:39:30,029 INFO    wandb-upload_3:11488 [upload_job.py:push():138] Uploaded file C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\output.log
+2023-04-11 11:39:30,150 INFO    wandb-upload_4:11488 [upload_job.py:push():138] Uploaded file C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\files\requirements.txt
+2023-04-11 11:39:31,151 INFO    wandb-upload_2:11488 [upload_job.py:push():138] Uploaded file C:\Users\PAVILI~1\AppData\Local\Temp\tmpw5jgeml1wandb\3ylcvrv5-model-best.h5
+2023-04-11 11:39:31,367 INFO    Thread-16 :11488 [sender.py:transition_state():587] send defer: 11
+2023-04-11 11:39:31,367 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: defer
+2023-04-11 11:39:31,367 INFO    HandlerThread:11488 [handler.py:handle_request_defer():170] handle defer: 11
+2023-04-11 11:39:31,367 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: defer
+2023-04-11 11:39:31,367 INFO    SenderThread:11488 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-04-11 11:39:31,369 INFO    SenderThread:11488 [file_pusher.py:join():169] waiting for file pusher
+2023-04-11 11:39:31,369 INFO    SenderThread:11488 [sender.py:transition_state():587] send defer: 12
+2023-04-11 11:39:31,369 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: defer
+2023-04-11 11:39:31,369 INFO    HandlerThread:11488 [handler.py:handle_request_defer():170] handle defer: 12
+2023-04-11 11:39:31,369 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: status_report
+2023-04-11 11:39:31,369 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: defer
+2023-04-11 11:39:31,370 INFO    SenderThread:11488 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-04-11 11:39:31,491 INFO    SenderThread:11488 [sender.py:transition_state():587] send defer: 13
+2023-04-11 11:39:31,492 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: defer
+2023-04-11 11:39:31,492 INFO    HandlerThread:11488 [handler.py:handle_request_defer():170] handle defer: 13
+2023-04-11 11:39:31,493 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: defer
+2023-04-11 11:39:31,493 INFO    SenderThread:11488 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-04-11 11:39:31,493 INFO    SenderThread:11488 [sender.py:transition_state():587] send defer: 14
+2023-04-11 11:39:31,495 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: defer
+2023-04-11 11:39:31,495 DEBUG   SenderThread:11488 [sender.py:send():336] send: final
+2023-04-11 11:39:31,496 INFO    HandlerThread:11488 [handler.py:handle_request_defer():170] handle defer: 14
+2023-04-11 11:39:31,496 DEBUG   SenderThread:11488 [sender.py:send():336] send: footer
+2023-04-11 11:39:31,498 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: defer
+2023-04-11 11:39:31,498 INFO    SenderThread:11488 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-04-11 11:39:31,500 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-11 11:39:31,501 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: server_info
+2023-04-11 11:39:31,501 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: get_summary
+2023-04-11 11:39:31,501 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: poll_exit
+2023-04-11 11:39:31,502 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: sampled_history
+2023-04-11 11:39:31,503 DEBUG   SenderThread:11488 [sender.py:send_request():363] send_request: server_info
+2023-04-11 11:39:31,689 INFO    MainThread:11488 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-04-11 11:39:31,691 INFO    MainThread:11488 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-04-11 11:39:31,715 INFO    MainThread:11488 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-04-11 11:39:31,720 DEBUG   HandlerThread:11488 [handler.py:handle_request():144] handle_request: shutdown
+2023-04-11 11:39:31,720 INFO    HandlerThread:11488 [handler.py:finish():842] shutting down handler
+2023-04-11 11:39:32,512 INFO    WriterThread:11488 [datastore.py:close():298] close: C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230411_113747-ybkyd5jv\run-ybkyd5jv.wandb
+2023-04-11 11:39:32,699 INFO    SenderThread:11488 [sender.py:finish():1504] shutting down sender
+2023-04-11 11:39:32,699 INFO    SenderThread:11488 [file_pusher.py:finish():164] shutting down file pusher
+2023-04-11 11:39:32,699 INFO    SenderThread:11488 [file_pusher.py:join():169] waiting for file pusher

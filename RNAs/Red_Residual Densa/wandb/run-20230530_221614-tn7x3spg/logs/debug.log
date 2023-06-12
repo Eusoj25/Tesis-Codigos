@@ -1,0 +1,49 @@
+2023-05-30 22:16:14,558 INFO    MainThread:18480 [wandb_setup.py:_flush():76] Configure stats pid to 18480
+2023-05-30 22:16:14,558 INFO    MainThread:18480 [wandb_setup.py:_flush():76] Loading settings from C:\Users\PAVILION 15-DW001LA\.config\wandb\settings
+2023-05-30 22:16:14,558 INFO    MainThread:18480 [wandb_setup.py:_flush():76] Loading settings from C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Residual Densa\wandb\settings
+2023-05-30 22:16:14,558 INFO    MainThread:18480 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-05-30 22:16:14,558 INFO    MainThread:18480 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-05-30 22:16:14,558 INFO    MainThread:18480 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'RNAs\\Red_Residual Densa\\Red_Residual-Densa.py', 'program': 'C:\\Users\\PAVILION 15-DW001LA\\Documents\\Tesis\\Códigos\\RNAs\\Red_Residual Densa\\Red_Residual-Densa.py'}
+2023-05-30 22:16:14,558 INFO    MainThread:18480 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Residual Densa\wandb\run-20230530_221614-tn7x3spg\logs\debug.log
+2023-05-30 22:16:14,558 INFO    MainThread:18480 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Residual Densa\wandb\run-20230530_221614-tn7x3spg\logs\debug-internal.log
+2023-05-30 22:16:14,558 INFO    MainThread:18480 [wandb_init.py:init():546] calling init triggers
+2023-05-30 22:16:14,558 INFO    MainThread:18480 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {}
+2023-05-30 22:16:14,558 INFO    MainThread:18480 [wandb_init.py:init():602] starting backend
+2023-05-30 22:16:14,558 INFO    MainThread:18480 [wandb_init.py:init():606] setting up manager
+2023-05-30 22:16:14,565 INFO    MainThread:18480 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-05-30 22:16:14,565 INFO    MainThread:18480 [wandb_init.py:init():613] backend started and connected
+2023-05-30 22:16:14,576 INFO    MainThread:18480 [wandb_init.py:init():701] updated telemetry
+2023-05-30 22:16:14,646 INFO    MainThread:18480 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-05-30 22:16:15,072 INFO    MainThread:18480 [wandb_run.py:_on_init():2133] communicating current version
+2023-05-30 22:16:15,274 INFO    MainThread:18480 [wandb_run.py:_on_init():2142] got version response upgrade_message: "wandb version 0.15.3 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-05-30 22:16:15,274 INFO    MainThread:18480 [wandb_init.py:init():789] starting run threads in backend
+2023-05-30 22:16:20,416 INFO    MainThread:18480 [wandb_run.py:_console_start():2114] atexit reg
+2023-05-30 22:16:20,416 INFO    MainThread:18480 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-05-30 22:16:20,416 INFO    MainThread:18480 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-05-30 22:16:20,416 INFO    MainThread:18480 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-05-30 22:16:20,416 INFO    MainThread:18480 [wandb_init.py:init():831] run started, returning control to user process
+2023-05-30 22:16:20,416 INFO    MainThread:18480 [wandb_config.py:__setitem__():152] config set learning_rate = 0.00025 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000194AE82FC70>>
+2023-05-30 22:16:20,417 INFO    MainThread:18480 [wandb_run.py:_config_callback():1251] config_cb learning_rate 0.00025 None
+2023-05-30 22:16:20,417 INFO    MainThread:18480 [wandb_config.py:__setitem__():152] config set batch_size = 20 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000194AE82FC70>>
+2023-05-30 22:16:20,417 INFO    MainThread:18480 [wandb_run.py:_config_callback():1251] config_cb batch_size 20 None
+2023-05-30 22:16:20,417 INFO    MainThread:18480 [wandb_config.py:__setitem__():152] config set epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000194AE82FC70>>
+2023-05-30 22:16:20,417 INFO    MainThread:18480 [wandb_run.py:_config_callback():1251] config_cb epochs 50 None
+2023-05-30 22:16:20,417 INFO    MainThread:18480 [wandb_config.py:__setitem__():152] config set metric = mape - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000194AE82FC70>>
+2023-05-30 22:16:20,417 INFO    MainThread:18480 [wandb_run.py:_config_callback():1251] config_cb metric mape None
+2023-05-30 22:16:20,419 INFO    MainThread:18480 [wandb_config.py:__setitem__():152] config set loss = mse - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000194AE82FC70>>
+2023-05-30 22:16:20,419 INFO    MainThread:18480 [wandb_run.py:_config_callback():1251] config_cb loss mse None
+2023-05-30 22:16:20,419 INFO    MainThread:18480 [wandb_config.py:__setitem__():152] config set optimizer = rmsprop - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000194AE82FC70>>
+2023-05-30 22:16:20,419 INFO    MainThread:18480 [wandb_run.py:_config_callback():1251] config_cb optimizer rmsprop None
+2023-05-30 22:16:20,419 INFO    MainThread:18480 [wandb_config.py:__setitem__():152] config set initializer = NO - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000194AE82FC70>>
+2023-05-30 22:16:20,419 INFO    MainThread:18480 [wandb_run.py:_config_callback():1251] config_cb initializer NO None
+2023-05-30 22:16:20,420 INFO    MainThread:18480 [wandb_config.py:__setitem__():152] config set regularizer = Dropout - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000194AE82FC70>>
+2023-05-30 22:16:20,420 INFO    MainThread:18480 [wandb_run.py:_config_callback():1251] config_cb regularizer Dropout None
+2023-05-30 22:16:20,420 INFO    MainThread:18480 [wandb_config.py:__setitem__():152] config set BatchNormalization = yes - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000194AE82FC70>>
+2023-05-30 22:16:20,420 INFO    MainThread:18480 [wandb_run.py:_config_callback():1251] config_cb BatchNormalization yes None
+2023-05-30 22:17:27,331 INFO    MainThread:18480 [wandb_config.py:__setitem__():152] config set predic = [0.030686289072036743, 0.01585105061531067, 0.01682800054550171, 0.03183606266975403] - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000194AE82FC70>>
+2023-05-30 22:17:27,335 INFO    MainThread:18480 [wandb_run.py:_config_callback():1251] config_cb predic [0.030686289072036743, 0.01585105061531067, 0.01682800054550171, 0.03183606266975403] None
+2023-05-30 22:17:27,335 INFO    MainThread:18480 [wandb_config.py:__setitem__():152] config set correct = [0.031499999999999875, 0.016249999999999952, 0.01724999999999998, 0.032499999999999904] - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000194AE82FC70>>
+2023-05-30 22:17:27,335 INFO    MainThread:18480 [wandb_run.py:_config_callback():1251] config_cb correct [0.031499999999999875, 0.016249999999999952, 0.01724999999999998, 0.032499999999999904] None
+2023-05-30 22:17:41,564 WARNING MsgRouterThr:18480 [router.py:message_loop():77] message_loop has been closed

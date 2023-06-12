@@ -1,0 +1,32 @@
+2023-04-04 11:29:19,037 INFO    MainThread:23860 [wandb_setup.py:_flush():76] Configure stats pid to 23860
+2023-04-04 11:29:19,038 INFO    MainThread:23860 [wandb_setup.py:_flush():76] Loading settings from C:\Users\PAVILION 15-DW001LA\.config\wandb\settings
+2023-04-04 11:29:19,038 INFO    MainThread:23860 [wandb_setup.py:_flush():76] Loading settings from C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\settings
+2023-04-04 11:29:19,038 INFO    MainThread:23860 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-04-04 11:29:19,038 INFO    MainThread:23860 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-04-04 11:29:19,038 INFO    MainThread:23860 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'RNAs\\Red_Densa\\RNA_densa.py', 'program': 'C:\\Users\\PAVILION 15-DW001LA\\Documents\\Tesis\\Códigos\\RNAs\\Red_Densa\\RNA_densa.py'}
+2023-04-04 11:29:19,040 INFO    MainThread:23860 [wandb_init.py:_log_setup():506] Logging user logs to C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230404_112919-w5aclw8j\logs\debug.log
+2023-04-04 11:29:19,041 INFO    MainThread:23860 [wandb_init.py:_log_setup():507] Logging internal logs to C:\Users\PAVILION 15-DW001LA\Documents\Tesis\Códigos\RNAs\Red_Densa\wandb\run-20230404_112919-w5aclw8j\logs\debug-internal.log
+2023-04-04 11:29:19,041 INFO    MainThread:23860 [wandb_init.py:init():546] calling init triggers
+2023-04-04 11:29:19,041 INFO    MainThread:23860 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {}
+2023-04-04 11:29:19,041 INFO    MainThread:23860 [wandb_init.py:init():602] starting backend
+2023-04-04 11:29:19,041 INFO    MainThread:23860 [wandb_init.py:init():606] setting up manager
+2023-04-04 11:29:19,046 INFO    MainThread:23860 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-04-04 11:29:19,051 INFO    MainThread:23860 [wandb_init.py:init():613] backend started and connected
+2023-04-04 11:29:19,054 INFO    MainThread:23860 [wandb_init.py:init():701] updated telemetry
+2023-04-04 11:29:19,113 INFO    MainThread:23860 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-04-04 11:29:19,523 INFO    MainThread:23860 [wandb_run.py:_on_init():2133] communicating current version
+2023-04-04 11:29:19,735 INFO    MainThread:23860 [wandb_run.py:_on_init():2142] got version response 
+2023-04-04 11:29:19,735 INFO    MainThread:23860 [wandb_init.py:init():789] starting run threads in backend
+2023-04-04 11:29:24,133 INFO    MainThread:23860 [wandb_run.py:_console_start():2114] atexit reg
+2023-04-04 11:29:24,133 INFO    MainThread:23860 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-04-04 11:29:24,134 INFO    MainThread:23860 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-04-04 11:29:24,134 INFO    MainThread:23860 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-04-04 11:29:24,135 INFO    MainThread:23860 [wandb_init.py:init():831] run started, returning control to user process
+2023-04-04 11:29:24,135 INFO    MainThread:23860 [wandb_config.py:__setitem__():152] config set learning_rate = 0.25 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001DE65FEF640>>
+2023-04-04 11:29:24,135 INFO    MainThread:23860 [wandb_run.py:_config_callback():1251] config_cb learning_rate 0.25 None
+2023-04-04 11:29:24,135 INFO    MainThread:23860 [wandb_config.py:__setitem__():152] config set batch_size = 20 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001DE65FEF640>>
+2023-04-04 11:29:24,136 INFO    MainThread:23860 [wandb_run.py:_config_callback():1251] config_cb batch_size 20 None
+2023-04-04 11:29:24,136 INFO    MainThread:23860 [wandb_config.py:__setitem__():152] config set epochs = 30 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001DE65FEF640>>
+2023-04-04 11:29:24,136 INFO    MainThread:23860 [wandb_run.py:_config_callback():1251] config_cb epochs 30 None
+2023-04-04 11:30:47,122 WARNING MsgRouterThr:23860 [router.py:message_loop():77] message_loop has been closed
